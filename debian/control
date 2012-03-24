@@ -1,4 +1,4 @@
-Source: krawu-themes
+Source: krawu-theme
 Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
@@ -6,11 +6,11 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.2
 Vcs-Bzr: http://dev.blankonlinux.or.id/bzr/rote/krawu-themes
 
-Package: krawu-themes
+Package: krawu-theme
 Architecture: all
 Depends: ${misc:Depends},
          gtk3-engines-unico,
          komodo-icon-theme,
          blankon-icon-theme,
-Description: Krawu Themes 
- Krawu themes like BlankOn 8 Rote
+Description: Krawu Theme 
+ Krawu theme like BlankOn 8 Rote
