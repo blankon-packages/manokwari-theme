@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=Krawu
+Type=X-GNOME-Metatheme
+Comment=GTK3 THEME for UBUNTU with GNOMESHELL :) ..::malys::.. 2012
+Version=1.0
+Encoding=UTF-8
+GtkTheme=Krawu
+MetacityTheme=Krawu
+IconTheme=Komodo-Coklat
+CursorTheme=DMZ-White
+CursorSize=24

@@ -1,14 +1,16 @@
-Source: zacalc
-Section: desktop
-Priority: extra
+Source: krawu-themes
+Section: gnome
+Priority: optional
 Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
-Build-Depends: debhelper (>= 7.0.50) 
-Standards-Version: 3.9.1
-VCS-bzr: http://dev.blankonlinux.or.id/bzr/pattimura/zacalc
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.2
+Vcs-Bzr: http://dev.blankonlinux.or.id/bzr/rote/krawu-themes
 
-Package: zacalc
+Package: krawu-themes
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-tk, islamic-menus 
-Description: Zakat Kalkulator
- Zakat Kalkulator
-
+Depends: ${misc:Depends},
+         gtk3-engines-unico,
+         komodo-icon-theme,
+         blankon-icon-theme,
+Description: Krawu Themes 
+ Krawu themes like BlankOn 8 Rote
