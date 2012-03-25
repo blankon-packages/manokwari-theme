@@ -1,13 +1,12 @@
 style "list-header"
 {
    #Comment out the ythickness setting below for thicker column headers.
-       xthickness            			= 9
-       ythickness            			= 5
-	GtkTreeView::odd_row_color  = "#dbdbdb"
-	GtkTreeView::even_row_color = "#dbdbdb"
-	GtkTreeView::odd_col_color = "#dbdbdb"
-	GtkTreeView::even_col_color = "#dbdbdb"	
-  text[NORMAL] = "#363636"
+ ythickness = 3
+	GtkTreeView::odd_row_color  = "#2f2f2f"
+	GtkTreeView::even_row_color = "#262626"
+	GtkTreeView::odd_col_color = "#262626"
+	GtkTreeView::even_col_color = "#2f2f2f"	
+  text[NORMAL] = "#aaaaaa"
    engine "pixmap" 
 	{
 
@@ -19,7 +18,7 @@ style "list-header"
 			recolorable    	= TRUE
 			state				= NORMAL
 			file            		= "ListHeaders/list_header.png"
-			border          	= { 10, 10, 10, 10 }
+			border          	= { 1, 0, 0, 0 }
 			stretch         	= TRUE
       		}
 
@@ -31,7 +30,7 @@ style "list-header"
 			recolorable    	= TRUE
 			state				= PRELIGHT
 			file            		= "ListHeaders/list_header-prelight.png"
-			border          	= { 10, 10, 10, 10 }
+			border          	= { 1, 0, 0, 0 }
 			stretch         	= TRUE
       		}
 
@@ -43,7 +42,7 @@ style "list-header"
 			recolorable    	= TRUE
 			state				= ACTIVE
 			file					= "ListHeaders/list_header-pressed.png"
-			border          	= { 10, 10, 10, 10 }
+			border          	= { 1, 0, 0, 0 }
 			stretch         	= TRUE
       		}
 	image
@@ -52,7 +51,7 @@ style "list-header"
 			recolorable    	= TRUE
 			state				= SELECTED
 			file					= "ListHeaders/list_header-prelight.png"
-			border          	= { 10, 10, 10, 10 }
+			border          	= { 1, 0, 0, 0 }
 			stretch         	= TRUE
       		}
 	image
@@ -61,14 +60,14 @@ style "list-header"
 			recolorable    	= TRUE
 			state				= INSENSITIVE
 			file					= "ListHeaders/list_header-insens.png"
-			border          	= { 10, 10, 10, 10 }
+			border          	= { 1, 0, 0, 0 }
 			stretch         	= TRUE
       	}
 	image
 	{
 		function 			= FLAT_BOX
 		state    			= SELECTED
-		border			= { 10, 10, 10, 10 }
+		border			= {2,2,2,2}
                 stretch         	= TRUE
 		file				= "ListHeaders/tree.png"
 	}

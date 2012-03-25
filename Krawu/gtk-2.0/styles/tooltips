@@ -1,6 +1,6 @@
 style "tooltips"	= "default"
 {
-	fg[NORMAL] = "#ffffff"
+	fg[NORMAL] = "#000000"
   engine "pixmap"
 	{
 		image
@@ -9,7 +9,7 @@ style "tooltips"	= "default"
                         detail		= "tooltip"
 			recolorable     = TRUE
 			file            = "/Others/tooltip.png"
-			border			= { 10, 10, 10, 10 }
+			border			= { 2, 2, 2, 2 }
 			stretch 		= TRUE
 		}
 	} 	

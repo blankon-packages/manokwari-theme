@@ -1,14 +1,14 @@
 style "toolbar"
 {
-xthickness=3
-ythickness=3
+xthickness=2
+ythickness=2
 engine "pixmap"
 {
 image
 {
 	function=BOX
 	file="/Toolbar/toolbar.png"
-	border={14,14,14,14}
+	border={1,1,1,1}
 	stretch=TRUE
 }}}
 widget_class "*HandleBox"		style "toolbar"
@@ -29,7 +29,7 @@ image
 			recolorable     		= TRUE
 			state					= NORMAL
 			file            			= "Toolbar/toolbutton-normal.png"
-			border          		= { 6, 6, 6, 6 }
+			border          		= { 5, 5, 5, 5 }
 			stretch         		= TRUE
 		}
 image
@@ -38,7 +38,7 @@ image
 			recolorable     		= TRUE
 			state					= PRELIGHT
 			file            			= "Toolbar/toolbutton-prelight.png"
-			border          		= { 6, 6, 6, 6 }
+			border          		= { 5, 5, 5, 5 }
 			stretch         		= TRUE
 		}
 image
@@ -47,7 +47,7 @@ image
 			recolorable     		= TRUE
 			state					= ACTIVE
 			file            			= "Toolbar/toolbutton-pressed.png"
-			border          		= { 6, 6, 6, 6 }
+			border          		= { 5, 5, 5, 5 }
 			stretch         		= TRUE
 		}  
 image
@@ -56,7 +56,7 @@ image
 			recolorable     		= TRUE
 			state					= INSENSITIVE
 			file            			= "Toolbar/toolbutton-insensitive.png"
-			border          		= { 6, 6, 6, 6 }
+			border          		= { 5, 5, 5, 5 }
 			stretch         		= TRUE
 		}  
 	}

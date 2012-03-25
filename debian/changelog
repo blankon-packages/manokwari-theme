@@ -1,15 +1,10 @@
-krawu-theme (0.1.2) rote; urgency=low
-
-  * remove debian/gconf-defaults
-
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sun, 25 Mar 2012 19:00:18 +0700
-
 krawu-theme (0.1.1) rote; urgency=low
 
   * changes debian/control
     - Remove blankon-icon-theme
+    - Remove debian/gconf-defauts 
 
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sun, 25 Mar 2012 11:16:41 +0700
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sun, 25 Mar 2012 20:47:04 +0700
 
 krawu-theme (0.1.0) rote; urgency=low
 

@@ -3,16 +3,17 @@ style "entry"			= "default"
   xthickness            			= 3
   ythickness            			= 3 
   GtkWidget::interior_focus	= 0
-  base[NORMAL] = "#dbdbdb"
-  base[PRELIGHT] = "#dbdbdb"
-  base[SELECTED] = "#90b1c0"
-  base[ACTIVE] = "#dbdbdb"
-  base[INSENSITIVE] = "#dbdbdb" 
-  text[NORMAL] = "#363636"
-  text[PRELIGHT] = "#464646"
-  text[SELECTED] = "#262626"
-  text[ACTIVE] = "#262626"
-  text[INSENSITIVE] = "#222222" 
+  base[NORMAL] = "#909090"
+  base[PRELIGHT] = "#909090"
+  base[SELECTED] = "#334657"
+  base[ACTIVE] = "#202020"
+  base[INSENSITIVE] = "#555555"
+
+  text[NORMAL] = "#000000"
+  text[PRELIGHT] = "#000000"
+  text[SELECTED] = "#cccccc"
+  text[ACTIVE] = "#4C94AF"
+  text[INSENSITIVE] = "#2F2F2F"
   engine "pixmap"
   {
     image
@@ -20,7 +21,7 @@ style "entry"			= "default"
       function			= FOCUS
       recolorable		= TRUE
       file			= "Shadows/entry-shadow-in.png"
-      border			= { 6,6,6,6 }
+      border			= { 3,3,3,3 }
       stretch			= TRUE
     }	
  image
@@ -30,7 +31,7 @@ style "entry"			= "default"
 	 shadow			= IN
       state			= NORMAL
       file			= "Shadows/entry-shadow-in.png"
-      border			= { 6,6,6,6 }
+      border			= { 3,3,3,3 }
       stretch			= TRUE
     }	
 image
@@ -40,7 +41,7 @@ image
 	 shadow			= OUT
       state			= NORMAL
       file			= "Shadows/text-entry.png"
-      border			= { 6,6,6,6 }
+      border			= { 3,3,3,3 }
       stretch			= TRUE
     }  
   image
@@ -50,7 +51,7 @@ image
      shadow			= IN
      recolorable		= FALSE
      file			= "Shadows/text-entry.png"
-     border			= { 6,6,6,6 }
+     border			= { 3,3,3,3 }
      stretch			= TRUE
     }
   }

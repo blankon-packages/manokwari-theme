@@ -9,7 +9,7 @@ style "range"			= "default"
       recolorable		= TRUE
       detail				= "trough"
       file				= "Range/trough-horizontal.png"
-      border			= { 5, 5, 5, 5 }
+      border			= { 5, 5, 0, 0 }
       stretch			= TRUE
       orientation		= HORIZONTAL
     }	
@@ -19,7 +19,7 @@ style "range"			= "default"
       recolorable		= TRUE
       detail				= "trough"
       file				= "Range/trough-vertical.png"
-      border			= { 5, 5, 5, 5 }
+      border			= { 0, 0, 5, 5 }
       stretch			= TRUE
       orientation		= VERTICAL
     }
