@@ -11,6 +11,5 @@ Architecture: all
 Depends: ${misc:Depends},
          gtk3-engines-unico,
          komodo-icon-theme,
-         blankon-icon-theme,
-Description: Krawu Theme 
- Krawu theme like BlankOn 8 Rote
+Description: Krawu Theme is like BlankOn 8 Rote
+ Krawu theme adalah tema untuk BlankOn 8 Rote
