@@ -1,3 +1,10 @@
+krawu-theme (0.1.2) rote; urgency=low
+
+  * remove unity
+  * make as default theme 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 30 Mar 2012 07:05:49 +0700
+
 krawu-theme (0.1.1) rote; urgency=low
 
   * changes debian/control

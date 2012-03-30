@@ -32,11 +32,13 @@
 </frame_geometry>
 
 <draw_ops name="title-text-focused">
+<title color="#777" x="(width - title_width) / 2 +1" y="(height - title_height) / 2 + 1"/>
 <title color="#fff" x="(width - title_width) / 2" y="(height - title_height) / 2"/>
 </draw_ops>
 
 <draw_ops name="title-text-unfocused">
-<title color="#999" x="(width - title_width) / 2" y="(height - title_height) / 2"/>
+<title color="#fff" x="(width - title_width) / 2 +1" y="(height - title_height) / 2 + 1"/>
+<title color="#777" x="(width - title_width) / 2" y="(height - title_height) / 2"/>
 </draw_ops>
 
 <draw_ops name="blank">
