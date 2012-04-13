@@ -7,12 +7,12 @@
 @define-color selected_fg_color #cccccc;
 @define-color tooltip_bg_color #E5E5E5;
 @define-color tooltip_fg_color #BFBFBF;
-@define-color theme_base_color #cccccc;
+@define-color theme_base_color #dcdcdc;
 @define-color theme_text_color #000000;
 @define-color theme_bg_color #202020;
 @define-color theme_fg_color #aaaaaa;
 /* @define-color theme_selected_bg_color #515252; */
-@define-color theme_selected_bg_color #686868;
+@define-color theme_selected_bg_color #707070;
 @define-color theme_selected_fg_color #FFFFFF;
 @define-color theme_tooltip_bg_color #4D4D4D;
 @define-color theme_tooltip_fg_color #BFBFBF;
@@ -64,5 +64,5 @@
 @define-color error_bg_color rgb (113, 0, 0);
 
 @import url("gtk-widgets.css");
-/* @import url("unity.css"); */
 @import url("manokwari.css");
+

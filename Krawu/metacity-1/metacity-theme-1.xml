@@ -12,9 +12,9 @@
 
 <frame_geometry name="normal"  rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="true" rounded_bottom_right="true" title_scale="medium">
 
-  <distance name="left_width" value="7"/>
-  <distance name="right_width" value="7"/>
-  <distance name="bottom_height" value="7"/>
+  <distance name="left_width" value="8"/>
+  <distance name="right_width" value="8"/>
+  <distance name="bottom_height" value="8"/>
   <distance name="left_titlebar_edge" value="7"/>
   <distance name="right_titlebar_edge" value="7"/>
   <distance name="button_width" value="50"/>
@@ -46,19 +46,19 @@
 
 <draw_ops name="title">
   <image filename="pixmaps.active_top_left.png" x="0" y="0" width="object_width" height="object_height"/>
-  <image filename="pixmaps.active_top.png" x="7" y="0" width="object_width" height="object_height"/>
+  <image filename="pixmaps.active_top.png" x="7" y="0" width="width - 10" height="object_height"/>
   <image filename="pixmaps.active_top_right.png" x="width - object_width" y="0" width="object_width" height="object_height"/>
 </draw_ops>
 
 <draw_ops name="title-unfocused">
   <image filename="pixmaps.inactive_top_left.png" x="0" y="0" width="object_width" height="object_height"/>
-  <image filename="pixmaps.inactive_top.png" x="7" y="0" width="object_width" height="object_height"/>
+  <image filename="pixmaps.inactive_top.png" x="7" y="0" width="width - 10" height="object_height"/>
   <image filename="pixmaps.inactive_top_right.png" x="width - object_width" y="0" width="object_width" height="object_height"/>
 </draw_ops>
 
 <draw_ops name="title-shaded">
   <image filename="pixmaps.active_top_left.png" x="0" y="0" width="object_width" height="23"/>
-  <image filename="pixmaps.active_top.png" x="0" y="0" width="object_width" height="object_height"/>
+  <image filename="pixmaps.active_top.png" x="0" y="0" width="width - 10" height="23"/>
   <image filename="pixmaps.active_top_right.png" x="width - object_width" y="0" width="object_width" height="23"/>
 </draw_ops>
 
