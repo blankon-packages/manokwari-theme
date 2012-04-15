@@ -694,7 +694,7 @@ GtkComboBox.combobox-entry .button:active {
     border-style: none;
     -GtkRange-trough-border: 0;
     -GtkRange-arrow-scaling: 0.444;
-    -GtkRange-slider-width: 17;
+    -GtkRange-slider-width: 15;
     -GtkRange-stepper-size: 0;
     -GtkScrollbar-min-slider-length: 30; /* minimum size for the slider. sadly can't be in '.slider' where it belongs */
 
