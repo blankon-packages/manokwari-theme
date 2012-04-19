@@ -10,7 +10,6 @@ Package: krawu-theme
 Architecture: all
 Depends: ${misc:Depends},
          gtk3-engines-unico,
-         gtk2-engines-pixbuf,
          komodo-icon-theme,
 Description: Krawu Theme like BlankOn
  Krawu theme BlankOn

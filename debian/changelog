@@ -1,3 +1,9 @@
+krawu-theme (0.1.5) rote; urgency=low
+
+  * remove depends : gtk2-engines-pixbuf
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 19 Apr 2012 18:18:21 +0700
+
 krawu-theme (0.1.4) rote; urgency=low
 
   * changes metacity artwork2
