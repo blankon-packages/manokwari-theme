@@ -1,7 +1,33 @@
+krawu-theme (0.2.0) rote; urgency=low
+
+  * changes Progress Bar color
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 28 Apr 2012 10:35:34 +0700
+
+krawu-theme (0.1.9) rote; urgency=low
+
+  * Changes :
+    - terminal color
+    - Calender color
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 28 Apr 2012 10:21:58 +0700
+
+krawu-theme (0.1.8) rote; urgency=low
+
+  * Changes metacity-1
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 27 Apr 2012 03:02:32 +0700
+
+krawu-theme (0.1.7) rote; urgency=low
+
+  * Revisi Krawu Theme
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 27 Apr 2012 02:35:20 +0700
+
 krawu-theme (0.1.6) rote; urgency=low
 
   * manokwari.css 
-    - gtk-window rgba(0.0.0.0) /*transparan*/
+    - gtk-window rgba(0,0,0,0)
 
  -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 20 Apr 2012 00:25:03 +0000
 
