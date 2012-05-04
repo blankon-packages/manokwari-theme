@@ -1,16 +1,22 @@
+krawu-theme (0.2.1) rote; urgency=low
+
+  * rebuild 1
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 04 May 2012 18:11:06 +0700
+
 krawu-theme (0.2.0) rote; urgency=low
 
-  * changes Progress Bar color
+  * replace theme
 
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 28 Apr 2012 10:35:34 +0700
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 01 May 2012 06:12:41 +0100
 
 krawu-theme (0.1.9) rote; urgency=low
 
-  * Changes :
+  * Chenges :
     - terminal color
     - Calender color
 
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 28 Apr 2012 10:21:58 +0700
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 28 Apr 2012 07:09:37 +0700
 
 krawu-theme (0.1.8) rote; urgency=low
 
