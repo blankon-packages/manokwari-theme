@@ -1,10 +1,10 @@
 /* Default color scheme */
-@define-color base_color #DFDFDF;
-@define-color bg_color #dedede;
-@define-color tooltip_bg_color #343434;
+@define-color base_color #ffffff;
+@define-color bg_color #fcfcfc;
+@define-color tooltip_bg_color #ffffff;
 @define-color text_color #202020;
-@define-color fg_color #202020;
-@define-color tooltip_fg_color #ffffff;
+@define-color fg_color #1c1c1c;
+@define-color tooltip_fg_color #000000;
 @define-color selected_bg_color #5085DA;
 @define-color selected_fg_color #ffffff;
 
@@ -67,8 +67,8 @@
 @define-color focused_entry_border #579eea;
 @define-color focused_entry_inset alpha (#d7e4f1, 0.50);
 
-@define-color button_gradient_color_a shade(#80B8EA, 1.02);
-@define-color button_gradient_color_b #80B8EA; /* rgb(128, 184, 234) */
+@define-color button_gradient_color_a shade(#5085DA, 0.9);
+@define-color button_gradient_color_b #5085DA; /* rgb(128, 184, 234) */
 @define-color button_border #a7a7a7;
 
 @define-color button_active_gradient_color_a #a4a4a4;
@@ -176,55 +176,6 @@
 @import url("scrollbar.css");
 @import url("sidebar.css");
 @import url("gtk-widgets-assets.css");
-/*@import url("gnome-panel.css");*/
-
-/* Select style for TABS 
-   ---------------------
-	1.- tabs default theme
-	@import url("tabs.css");
-
-	2.- More traditional style tabs
-	@import url("tabs-classic.css");
-
-	(Be careful to leave only ONE of the two,
-	edit the line below according to the style you want) 
-*/
-@import url("tabs.css");
-
-/* 
-	There are 2 options for Unity panel
-	-----------------------------------
-	1.- If you prefer the transparent panel "Unity" Mac Style	
-	@import url("unity-transparent.css");
-
-	2.- If you prefer the default
-	@import url("unity.css");
-
-	3.- If you prefer the white mac style solid
-	@import url("unity-white.css");
-
-	(edit the line below according to the style you want) 	
-*/
+@import url("tabs-classic.css");
 @import url("manokwari.css");
-
-/*  
-	There are three options for nautilus:
-	-----------------------------------
-	1.- nautilus sidebar and toolbar gray:
-		@import url("gnome-applications-gray.css");
-
-	OR  
-
-	2.- nautilus sidebar and toolbar light:
-		@import url("gnome-applications-light.css"); 
-
-	OR
-
-	3.- nautilus sidebar gray and toolbar light:
-		@import url("gnome-applications-gray-light.css"); 
-	
-	(edit the line below according to the style of nautilus you want) 
-*/
-/* ---------------------------------------------------- */
 @import url("gnome-applications-gray.css");
-/* ---------------------------------------------------- */

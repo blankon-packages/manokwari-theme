@@ -1,3 +1,11 @@
+krawu-theme (0.2.2) rote; urgency=low
+
+  * rebuild 2 :
+    - button
+    - metacity-1
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sun, 06 May 2012 03:56:07 +0700
+
 krawu-theme (0.2.1) rote; urgency=low
 
   * rebuild 1

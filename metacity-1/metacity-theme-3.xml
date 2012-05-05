@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Zukitwo Dark</name>
+	<name>Zukitwo</name>
 	<author>lassekongo83</author>
 	<copyright>GPL</copyright>
 	<date>2011</date>
@@ -10,16 +10,17 @@
 
 <!-- meaningfull constants -->
 
-<constant name="C_border_focused" value="shade/gtk:bg[NORMAL]/0.25" />
-<constant name="C_border_unfocused" value="shade/gtk:bg[NORMAL]/0.25" />
-<constant name="C_border_attached_focused" value="shade/gtk:bg[NORMAL]/0.25" />
-<constant name="C_titlebar_focused_hilight" value="shade/#6C6C6C/1.15" />
-<constant name="C_titlebar_unfocused" value="#4C4C4C" />
+<constant name="C_border_focused" value="blend/#000000/gtk:bg[NORMAL]/0.5" />
+<constant name="C_border_unfocused" value="blend/#000000/gtk:bg[NORMAL]/0.6" />
+<constant name="C_border_attached_focused" value="blend/#000000/gtk:bg[NORMAL]/0.5" />
+<constant name="C_titlebar_focused_hilight" value="blend/#ffffff/gtk:bg[NORMAL]/0.2" />
+<constant name="C_titlebar_unfocused" value="blend/gtk:base[NORMAL]/gtk:bg[NORMAL]/0.4" />
 <constant name="C_title_focused" value="blend/gtk:fg[NORMAL]/gtk:bg[NORMAL]/0.1" />
 <constant name="C_title_focused_hilight" value="gtk:custom(wm_title_highlight,gtk:base[NORMAL])" />
 <constant name="C_title_unfocused" value="blend/gtk:text[NORMAL]/gtk:bg[NORMAL]/0.7" />
 <!-- color of the button icons -->
 <constant name="D_icons_unfocused_offset" value="0" /> <!-- offset of the unfocused icons -->
+
 <!-- geometries -->
 
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
@@ -97,13 +98,13 @@
 	<!-- title -->
 
 <draw_ops name="title_focused">
-	<title color="#2C2C2C" x="3 `max` (width-title_width)/2" y="1 `max` ((height-title_height)/2)+1"/>
-	<title color="#f7f7f7" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	<title color="#ffffff" x="3 `max` (width-title_width)/2" y="1 `max` ((height-title_height)/2)+1"/>
+	<title color="#2C2C2C" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title color="#2C2C2C" x="4 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
-	<title color="#bbbbbb" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	<title color="#ffffff" x="4 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
+	<title color="#999999" x="3 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
 </draw_ops>
 
 	<!-- window decorations -->
@@ -118,23 +119,23 @@
 
 <draw_ops name="titlebar_fill_focused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="#6C6C6C" />
-		<color value="#4C4C4C" />
+		<color value="blend/#ffffff/gtk:bg[NORMAL]/0.5" />
+		<color value="gtk:bg[NORMAL]" />
 	</gradient>
 </draw_ops>
 
 
 <draw_ops name="titlebar_fill_attached_focused"> <!-- gradient for attached and modal dialogs titlebar-->
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="#6C6C6C" />
-		<color value="#4C4C4C" />
+		<color value="blend/#ffffff/gtk:bg[NORMAL]/0.5" />
+		<color value="gtk:bg[NORMAL]" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="#5C5C5C" />
-		<color value="#4C4C4C" />
+		<color value="blend/#ffffff/gtk:bg[NORMAL]/0.9" />
+		<color value="gtk:bg[NORMAL]" />
 	</gradient>
 </draw_ops>
 
@@ -142,7 +143,7 @@
 	<line x1="0" y1="1" x2="width-1" y2="1" color="C_titlebar_focused_hilight" />
 	<gradient type="vertical" x="1" y="1" width="1" height="height-4">
 		<color value="C_titlebar_focused_hilight" />
-		<color value="#4C4C4C" />
+		<color value="gtk:bg[NORMAL]" />
 	</gradient>
 </draw_ops>
 
