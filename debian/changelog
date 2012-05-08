@@ -1,3 +1,9 @@
+krawu-theme (0.2.4) rote; urgency=low
+
+  * syncroning value fg_color gtk-2.0
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 08 May 2012 22:06:56 +0700
+
 krawu-theme (0.2.3) rote; urgency=low
 
   * rebuild 3
