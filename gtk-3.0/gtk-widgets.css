@@ -62,20 +62,18 @@
 /***************
  * Base States *
  ***************/
-/*GtkWindow {
-	color: @bg_color;
-	background-color: @fg_color;
-}*/
-
-.background {
-	background-color: @fg_color;
+GtkWindow {
+	background-color: @theme_bg_color;
 }
 
 * {
     background-color: inherit;
-    color: shade (#ffffff, 0.3);
+    color: @theme_fg_color;
 }
 
+.background {
+    background-color: @theme_bg_color;
+}
 
 /* Inner Shadow */
 .entry,
@@ -105,20 +103,20 @@ GtkSwitch.trough {
 
 *:hover {
     background-color: alpha(@theme_base_color, 0.0);
-    color: @theme_bg_color;
+    color: @theme_fg_color;
 }
 
-/*
+/*****/
 *:selected {
-    background-color: @theme_selected_fg_color;
-    color: @theme_selected_bg_color;
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
 }
 
 *:selected:focused {
-    background-color: @theme_selected_fg_color;
-    color: @theme_selected_bg_color;
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
 }
-*/
+/***/
 
 *:insensitive {
     background-color: @insensitive_bg_color;
@@ -187,7 +185,7 @@ GtkTreeView .separator,
 GtkStatusbar {
     padding: 5;
     color: @theme_fg_color;
-    -GtkStatusbar-shadow-type: none;
+     -GtkStatusbar-shadow-type: none;
 }
 
 .dnd {
@@ -483,7 +481,7 @@ GtkScrolledWindow.frame {
 /***********
  * Buttons *
  ***********/
-button,
+.button,
 .button.menuitem.menubar {
     padding: 2 4;
 }
@@ -514,22 +512,22 @@ button,
     
     -unico-border-gradient: -gtk-gradient (linear,
                             left top, left bottom,
-                            from (shade (@button_border, 0.1)),
-                            to (shade (@button_border, 0.1)));
+                            from (shade (@button_border, 0.91)),
+                            to (shade (@button_border, 0.84)));
 
-   background-image: -gtk-gradient (linear,
+    background-image: -gtk-gradient (linear,
                                      left top, left bottom,
-                                     from (rgb(35,35,35)),
-                                     color-stop (0.9, rgb(50,50,50)),
-                                     color-stop (0.9, rgb(50,50,50)),
-                                     color-stop (0.9, rgb(50,50,50)),
-                                     to (rgb(35,35,35)));
-   color: @theme_text_color;
+                                     from (rgb(255,255,255)),
+                                     color-stop (0.25, rgb(255,255,255)),
+                                     color-stop (0.50, rgb(243,243,243)),
+                                     color-stop (0.50, rgb(236,236,236)),
+                                     to (rgb(242,242,242)));
+    color: @theme_text_color;
 
 }
 
 .button:hover {
-
+/*
 	background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@button_gradient_color_a, 1.35)),
@@ -538,7 +536,8 @@ button,
 
     border-color: shade (@button_gradient_color_a, 0.60);
 	-unico-focus-fill-color: alpha (@theme_base_color, 0.0);
-	color: shade (@theme_text_color, 0.0);
+	color: shade (@theme_text_color, 0.5);
+*/
 }
 
 .toolbar .button:hover {
@@ -548,8 +547,8 @@ button,
 .toolbar .button:hover:active {
  }
 
-.button:active
-.button:hover:active {
+.button:active {
+/* .button:hover:active */
 
 	background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -578,13 +577,13 @@ button,
 }
 
 .button.default {
-/*	box-shadow: none;
-	background-image: -gtk-gradient (linear,
+	box-shadow: none;
+	/* background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@button_gradient_color_a, 1.34)),
                                      color-stop (0.56, shade (@button_gradient_color_a, 1.00)),
                                      color-stop (0.56, shade (@button_gradient_color_a, 0.95)),
-                                     to (shade (@button_gradient_color_a, 1.25))); 
+                                     to (shade (@button_gradient_color_a, 1.25))); */ 
 
 	background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -610,12 +609,12 @@ button,
 	-unico-focus-fill-color: alpha (@theme_base_color, 0.0);
 }
 
-/*.button:insensitive {
+.button:insensitive {
     background-image: none;
     background-color: @insensitive_bg_color;
     color: @insensitive_fg_color;
     -unico-border-gradient: none;
-*/
+
 }
 
 /*****************
@@ -1638,7 +1637,7 @@ GtkViewport {
 
 	/* ubuntu-12 */ 
 	/* Color fondo config systema y gnome-tweak-tools */
-	background-color: shade(@theme_fg_color, 1.00);
+	background-color: shade(@theme_bg_color, 1.00);
 }
 
 GtkViewport.frame {
@@ -1804,7 +1803,7 @@ row:selected:focused {
 }
 
 .cell {
-    color: shade (@theme_text_color, 3.0);
+    color: @theme_text_color;
     padding: 0 2;
     border-width: 0;
 }
@@ -1836,7 +1835,7 @@ row:selected:focused {
 }
 
 /* Calendars */
-*GtkCalendar {
+GtkCalendar {
     padding: 2;
 }
 
@@ -1867,11 +1866,11 @@ GtkCalendar.button {
 
 .highlight,
 GtkCalendar.highlight {
-    background-color: #222222; /*@theme_selected_bg_color;*/
-    color: #BFBFBF; /*@theme_selected_fg_color;*/
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
     border-radius: 0;
     padding: 0;
-    border-width: 1;
+    border-width: 0;
 }
 
 .info {

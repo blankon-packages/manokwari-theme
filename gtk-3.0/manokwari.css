@@ -1,38 +1,38 @@
-@define-color manokwari_bg_color #1c1c1c;
-@define-color manokwari_fg_color #fcfcfc;
-@define-color window_desc_bg_color #bbbbbb;
-@define-color window_desc_fg_color #333333;
-@define-color window_desc_bg_minimized_color #a0a0a0;
+@define-color panel_bg_color #1A1A1A;
+@define-color panel_fg_color #f2f2f2;
+@define-color window_desc_bg_color #4e70b0;
+@define-color window_desc_fg_color #00001e;
+@define-color window_desc_bg_minimized_color #606090;
 @define-color window_desc_fg_minimized_color #010101;
 @define-color window_desc_bg_hover_color #a0a0a0;
 @define-color window_desc_fg_hover_color #010101;
 
-@define-color clock_fg_color #ccccccc; 
+@define-color clock_fg_color #eeeeee; 
 
 
 PanelWindowHost
 {
-    color: @manokwari_fg_color;
-    background-color: @manokwari_bg_color; 
+    color: @panel_fg_color;
+    background-image: url("assets/panel.png");
 }
 
 PanelMenuBox {
-    color: @manokwari_fg_color;
-    background-color: @manokwari_bg_color; 
+    color: @panel_fg_color;
+    background-color: @panel_bg_color; 
 }
 
 PanelTray {
-    background-color: @manokwari_bg_color; 
+    background-color: @panel_bg_color; 
 }
 
 GtkMenu {
-    color: @manokwari_fg_color;
-    background-color: @manokwari_bg_color; 
+    color: @panel_fg_color;
+    background-color: @panel_bg_color;
 }
 
 GtkMenuItem:hover {
-    color: #7f7f7f;
-    background-color: #bfbfbf;
+    color: #ffffff;
+    background-color: #0044AA; 
 }
 
 
@@ -42,12 +42,12 @@ PanelMenuContent > GtkSeparator {
 
 PanelItem {
     color: #aaaaaa;
-    font: Sans;
+    font: Sans Bold;
 }
 
 PanelItem:prelight {
-    color: #202020;
-    background-color: #ededed; 
+    color: #ffffff;
+    background-color: #0044AA; 
 }
 
 PanelWindowPager,
@@ -57,35 +57,35 @@ PanelWindowEntry {
 }
 
 PanelWindowEntry:selected {
-    background-color: #202020; 
-    color: #ededed;
+    background-color: #AA0000; 
+    color: #ffffff;
 }
 
 PanelWindowEntry:active {
-    background-color: #dedede; 
-    color: #1a1a1a; 
+    background-color: #E5E5E5; 
+    color: #ffffff; 
 }
 
 PanelWindowEntry:prelight {
-    background-color: #dedede; 
-    color: #ededed; 
+    background-color: #E5E5E5; 
+    color: #ffffff; 
 }
 
 PanelWindowEntry:insensitive {
     background-color: #202020; 
-    color: #ededed;
+    color: #808080;
 }
 
 GtkWindow {
-    background-color: @manokwari_bg_color;
- }
+    background-color: rgba(0,0,0,0);
+}
 
 PanelClock {
     font: Sans;
     color: @clock_fg_color;
-/*    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
     border-color: #000000;
     border-style: solid;
     border-width: 25;
-    border-radius: 10;*/
+    border-radius: 10;
 }

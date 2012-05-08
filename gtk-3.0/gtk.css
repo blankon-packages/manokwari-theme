@@ -1,12 +1,13 @@
 /* Default color scheme */
-@define-color base_color #ffffff;
-@define-color bg_color #fcfcfc;
-@define-color tooltip_bg_color #ffffff;
+@define-color base_color #f2f2f2;
+@define-color bg_color #ededed;
+@define-color fg_color #505050;
 @define-color text_color #202020;
-@define-color fg_color #1c1c1c;
-@define-color tooltip_fg_color #000000;
-@define-color selected_bg_color #5085DA;
+@define-color tooltip_bg_color #ededed;
+@define-color tooltip_fg_color #ffffff;
+@define-color selected_bg_color #3875d7;
 @define-color selected_fg_color #ffffff;
+
 
 /* Colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_base_color @base_color;
@@ -47,15 +48,15 @@
 /* colors gnome fallback panel               */
 /* * * * * * * * * * * * * * * * * * * * * * */
 /* if you want the dark panel, change the    */
-/* two lines below for these:                */
-/* 
-@define-color os_chrome_bg_color #484848;
-@define-color os_chrome_fg_color #F0F0F0; 
-*/
-/* * * * * --- lines to change --- * * * * * * * */
+/* two lines below for these:                *
+ 
+@define-color os_chrome_bg_color #202020; 
+@define-color os_chrome_fg_color #1a1a1a; 
+
+/* * * * * --- lines to change --- * * * * * * ***/
 @define-color os_chrome_bg_color @theme_bg_color;
 @define-color os_chrome_fg_color @theme_fg_color;
-/* * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * ***/
 
 @define-color os_chrome_selected_bg_color  @theme_selected_bg_color;
 @define-color os_chrome_selected_fg_color  @theme_selected_fg_color;
@@ -67,8 +68,8 @@
 @define-color focused_entry_border #579eea;
 @define-color focused_entry_inset alpha (#d7e4f1, 0.50);
 
-@define-color button_gradient_color_a shade(#5085DA, 0.9);
-@define-color button_gradient_color_b #5085DA; /* rgb(128, 184, 234) */
+@define-color button_gradient_color_a shade(#80B8EA, 1.02);
+@define-color button_gradient_color_b #80B8EA; /* rgb(128, 184, 234) */
 @define-color button_border #a7a7a7;
 
 @define-color button_active_gradient_color_a #a4a4a4;
@@ -124,8 +125,8 @@
 @define-color transparent rgba (0, 0, 0, 0);
 
 @define-color notebook_border #a6a6a6;
-@define-color notebook_active_tab_border #5085DA; /*#1372d3;*/
-@define-color notebook_selected_tab_color #7F7F7F;
+@define-color notebook_active_tab_border #1372d3;
+@define-color notebook_selected_tab_color #8dc0f3;
 
 @define-color notebook_tab_gradient_a @theme_base_color;
 @define-color notebook_tab_gradient_b @switch_slider_color;
@@ -148,7 +149,7 @@
 @define-color expander_row_selected_color #acccee;
 
 @define-color sidebar_background #DDE1E8;
-@define-color sidebar_selected_bg shade (@selected_bg_color, 0.9);
+@define-color sidebar_selected_bg shade (#4E83D2, 0.80);
 
 @define-color nautilus_cluebar_color shade (@bg_color, 0.50);
 
@@ -176,6 +177,9 @@
 @import url("scrollbar.css");
 @import url("sidebar.css");
 @import url("gtk-widgets-assets.css");
+@import url("gnome-panel.css");
 @import url("tabs-classic.css");
 @import url("manokwari.css");
+/* ---------------------------------------------------- */
 @import url("gnome-applications-gray.css");
+/* ---------------------------------------------------- */

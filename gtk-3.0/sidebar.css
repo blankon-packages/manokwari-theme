@@ -12,9 +12,9 @@
 .sidebar .view,
 .sidebar .view:prelight {
     border-radius:    	0;
-    background-color: 	@sidebar_background;
-    color:      		shade(@theme_text_color, 0.80);
-/*    text-shadow: 0 1 shade (@sidebar_background, 1.05);*/
+    background-color: 	@sidebar_background;	
+	color:      		shade(@theme_text_color, 0.80);
+    text-shadow: 0 1 shade (@sidebar_background, 1.05);
 }
 
 .sidebar.view:selected,
@@ -32,7 +32,7 @@
                     from (shade(@sidebar_selected_bg, 1.30)),
                     to (shade(@sidebar_selected_bg, 1.00)));
     color: #ffffff;    
- /*   text-shadow: 1 2 shade (@sidebar_selected_bg, 0.9);*/
+    text-shadow: 1 2 shade (@sidebar_selected_bg, 0.9);
 }
 
 .sidebar .radio,

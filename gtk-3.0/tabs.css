@@ -33,6 +33,7 @@
 }
 
 .notebook GtkDrawingArea {
+	/* ubuntu 12 */
 	background-color: shade (@theme_bg_color, 0.97);
 }
 
@@ -90,6 +91,7 @@
 }
 
 .notebook tab GtkLabel {
+	/* ubuntu 12 */
 	color: @theme_text_color; 
 	text-shadow: none;
 }
