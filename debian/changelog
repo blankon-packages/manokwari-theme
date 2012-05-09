@@ -1,3 +1,9 @@
+krawu-theme (0.2.5) UNRELEASED; urgency=low
+
+  * added depends gtk2-engines-murrine
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 09 May 2012 18:46:15 +0700
+
 krawu-theme (0.2.4) rote; urgency=low
 
   * syncroning value fg_color gtk-2.0

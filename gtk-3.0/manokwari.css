@@ -1,4 +1,4 @@
-@define-color panel_bg_color #1A1A1A;
+@define-color panel_bg_color #303030;
 @define-color panel_fg_color #f2f2f2;
 @define-color window_desc_bg_color #4e70b0;
 @define-color window_desc_fg_color #00001e;
@@ -22,6 +22,7 @@ PanelMenuBox {
 }
 
 PanelTray {
+    color: @panel_fg_color;
     background-color: @panel_bg_color; 
 }
 
@@ -52,7 +53,7 @@ PanelItem:prelight {
 
 PanelWindowPager,
 PanelWindowEntry {
-    background-color: #202020;
+    background-color: @panel_bg_color;
     color: #808080; 
 }
 
@@ -62,30 +63,31 @@ PanelWindowEntry:selected {
 }
 
 PanelWindowEntry:active {
-    background-color: #E5E5E5; 
+    background-color: #e5e5e5; 
     color: #ffffff; 
 }
 
 PanelWindowEntry:prelight {
-    background-color: #E5E5E5; 
+    background-color: #7EAA50; 
     color: #ffffff; 
 }
 
 PanelWindowEntry:insensitive {
-    background-color: #202020; 
+    background-color: #303030; 
     color: #808080;
 }
 
 GtkWindow {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(247,247,247,0);
 }
 
 PanelClock {
     font: Sans;
     color: @clock_fg_color;
-    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.5);
+    background-image: url("assets/panel.png"); /*color: rgba(0.5, 0.5, 0.5, 0.5);*/
     border-color: #000000;
     border-style: solid;
-    border-width: 25;
-    border-radius: 10;
+    border-width: 25px;
+    border-radius: 10px;
 }
