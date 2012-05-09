@@ -1,4 +1,4 @@
-krawu-theme (0.2.5) UNRELEASED; urgency=low
+krawu-theme (0.2.5) rote; urgency=low
 
   * added depends gtk2-engines-murrine
 
