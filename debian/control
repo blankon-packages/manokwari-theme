@@ -8,6 +8,6 @@ Vcs-Bzr: http://dev.blankonlinux.or.id/bzr/rote/krawu-themes
 
 Package: krawu-theme
 Architecture: all
-Depends: ${misc:Depends}, gtk3-engines-unico, gtk2-engines-murrine, komodo-icon-theme
+Depends: ${misc:Depends}, gtk3-engines-unico, gtk2-engines-murrine, gtk2-engines-pixbuf, komodo-icon-theme
 Description: Krawu Theme like BlankOn
  Krawu theme BlankOn
