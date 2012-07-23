@@ -67,8 +67,8 @@ PanelWindowEntry:active {
 }
 
 PanelWindowEntry:prelight {
-    background-color: #a2b8ca;
-    color: #ffffff; 
+    background-color: #bfbfbf;
+    color: #2c2c2c; 
 }
 
 PanelWindowEntry:insensitive {

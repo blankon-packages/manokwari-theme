@@ -1,3 +1,9 @@
+krawu-theme (0.2.8) rote; urgency=low
+
+  * progressbar color match
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Mon, 23 Jul 2012 11:31:56 +0700
+
 krawu-theme (0.2.7) rote; urgency=low
 
   * change metacity1 
