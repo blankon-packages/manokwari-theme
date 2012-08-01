@@ -1,3 +1,9 @@
+krawu-theme (0.2.10) rote; urgency=low
+
+  * added gtk2-engines-murrine gtk3-engines-unico
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 02 Aug 2012 04:08:11 +0700
+
 krawu-theme (0.2.9) rote; urgency=low
 
   * remove gtk3-engines-unico, gtk2-engines-pixbuf
