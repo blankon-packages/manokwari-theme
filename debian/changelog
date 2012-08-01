@@ -1,3 +1,9 @@
+krawu-theme (0.2.9) rote; urgency=low
+
+  * remove gtk3-engines-unico, gtk2-engines-pixbuf
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 01 Aug 2012 23:17:33 +0700
+
 krawu-theme (0.2.8) rote; urgency=low
 
   * progressbar color match
