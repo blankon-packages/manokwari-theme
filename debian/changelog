@@ -1,3 +1,9 @@
+krawu-theme (0.2.11) rote; urgency=low
+
+  * Fix Scroll Libreoffice Calc
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 03 Aug 2012 21:05:52 +0700
+
 krawu-theme (0.2.10) rote; urgency=low
 
   * added gtk2-engines-murrine gtk3-engines-unico
