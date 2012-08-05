@@ -1,3 +1,9 @@
+krawu-theme (0.2.12) rote; urgency=low
+
+  * fix progressbar texture
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sun, 05 Aug 2012 22:07:40 +0700
+
 krawu-theme (0.2.11) rote; urgency=low
 
   * Fix Scroll Libreoffice Calc

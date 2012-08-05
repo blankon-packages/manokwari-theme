@@ -1,7 +1,7 @@
 @define-color cluebar_color shade (mix (@bg_color, @selected_bg_color, 0.5), 0.95);
 
 NautilusWindow * {
-	-GtkPaned-handle-size: 1;
+	-GtkPaned-handle-size: 5;
 	background-color: @base_color;
 }
 
@@ -143,4 +143,3 @@ NautilusWindow .primary-toolbar .button:hover {
 		from (shade (@bg_color, 0.7)),
 		to (shade (@bg_color, 0.6)));
 }
-

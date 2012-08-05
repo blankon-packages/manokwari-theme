@@ -47,11 +47,11 @@ style "murrine-default" {
 	GtkWidget	::focus-padding			= 0 # Keeping this at 0 prevents the Firefox tabs from jumping a few pixels when you create a new tab. Set the value locally if needed.
 
 	GtkImage	::x-ayatana-indicator-dynamic	= 1
-
+	
 	GtkScrollbar	::has-backward-stepper		= 0  
 	GtkScrollbar	::has-forward-stepper		= 0
 	GtkScrollbar	::min-slider-length		= 30
-	GtkScrollbar	::slider-width			= 14
+	GtkScrollbar	::slider-width			= 13
 	GtkScrollbar	::trough-border			= 1
 	GtkScrollbar	::activate-slider		= 1
 
@@ -129,40 +129,40 @@ style "murrine-default" {
 	### Murrine Settings ###
 	
 	engine "murrine" {
-		animation		= FALSE
-		arrowstyle		= 1			# 0 = normal arrows, 1 = filled arrows		
+		animation			= FALSE
+		arrowstyle			= 1			# 0 = normal arrows, 1 = filled arrows		
 		border_shades		= {1.0, 0.7}		# gradient to draw on border		
 		colorize_scrollbar	= FALSE		
 		comboboxstyle		= 0			# 0 = normal combobox, 1 = colorized combobox below arrow		
-		contrast		= 0.4 			# 0.8 for less contrast, more than 1.0 for more contrast on borders
+		contrast			= 0.4 		# 0.8 for less contrast, more than 1.0 for more contrast on borders
 		default_button_color	= shade (1.12, @selected_bg_color)
-		focus_color		= @selected_bg_color
-		focusstyle		= 3
-		glazestyle		= 1			# 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
+		focus_color			= @selected_bg_color
+		focusstyle			= 3
+		glazestyle			= 1			# 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
 		gradient_shades		= {1.1,1.1,0.95,0.95}	# Sets the gradients on the widgets.
-		glowstyle		= 4			# 0,1,2,3,4
-		glow_shade		= 1.1
-		highlight_shade		= 1.0			# set highlight amount for buttons or widgets
-		lightborder_shade	= 1.1			# sets lightborder amount for buttons or widgets
-		lightborderstyle	= 0			# 0 = lightborder on top side, 1 = lightborder on all sides
+		glowstyle			= 4			# 0,1,2,3,4
+		glow_shade			= 1.1
+		highlight_shade		= 1.0		# set highlight amount for buttons or widgets
+		lightborder_shade	= 1.1		# sets lightborder amount for buttons or widgets
+		lightborderstyle	= 1			# 0 = lightborder on top side, 1 = lightborder on all sides
 		listviewheaderstyle	= 1			# 0 = flat, 1 = glassy, 2 = raised
 		listviewstyle		= 1			# 0 = nothing, 1 = dotted
 		menubaritemstyle	= 0			# 0 = menuitem look, 1 = button look
 		menubarstyle		= 2			# 0 = flat, 1 = glassy, 2 = gradient, 3 = striped
 		menuitemstyle		= 0			# 0 = flat, 1 = glassy, 2 = striped
-		menustyle		= 0			# 0 = no vertical menu stripe, 1 = display vertical menu stripe
-		prelight_shade		= .95			# shade level for scrollbar's slider, comboboxstyle(1), and prelight state with gradient_colors		
-		reliefstyle		= 2			# 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
-		rgba			= FALSE			# FALSE = disabled, TRUE = enabled
-		roundness		= 2			# 0 = squared, 1 = old default, more will increase roundness
+		menustyle			= 0			# 0 = no vertical menu stripe, 1 = display vertical menu stripe
+		prelight_shade		= .95		# shade level for scrollbar's slider, comboboxstyle(1), and prelight state with gradient_colors		
+		reliefstyle			= 2			# 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
+		rgba				= FALSE		# FALSE = disabled, TRUE = enabled
+		roundness			= 2			# 0 = squared, 1 = old default, more will increase roundness
 		scrollbarstyle		= 0			# 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
 		separatorstyle		= 1			# 0 = Hard seperators 1 = Smooth seperators
-		sliderstyle		= 0			# 0 = nothing added, 1 = handles
+		sliderstyle			= 0			# 0 = nothing added, 1 = handles
 		stepperstyle		= 1			# 0 = standard, 1 = integrated stepper handles, 2 = unknown
-		progressbarstyle	= 0			# 0 = nothing, 1 = stripes, 2 = lines
+		progressbarstyle	= 1 		# 0 = nothing, 1 = stripes, 2 = lines
 		shadow_shades		= {0.5, 0.0}		# gradient for shadows.		
-		textstyle		= 0			# 0 = normal text, 1 = inset		
-		toolbarstyle		= 2			# 0 = flat, 1 = glassy, 2 = gradient		
+		textstyle			= 0			# 0 = normal text, 1 = inset		
+		toolbarstyle		= 1			# 0 = flat, 1 = glassy, 2 = gradient		
 		trough_shades		= {0.98, 1.06}		# draw gradient on trough of GtkScrollbar and GtkProgressbar
 	}
 }

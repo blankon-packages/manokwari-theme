@@ -67,7 +67,7 @@
 	-unico-inner-stroke-width: 0;
 }
 GtkWindow {
-	color: inherit
+	color: inherit;
 }
 
 * {
