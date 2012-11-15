@@ -10,19 +10,19 @@
 @define-color clock_fg_color #eeeeee; 
 
 
-PanelWindowHost
-{
-    color: @panel_fg_color;
+PanelWindowHost {
     background-image: url("assets/panel.png");
+    background-color: @panel_bg_color;
+    color: @panel_fg_color;
 }
 
 PanelMenuBox {
-    color: @panel_fg_color;
     background-color: @panel_bg_color; 
+    color: @panel_fg_color;
 }
 
-PanelTray {
-    background-color: @panel_bg_color; 
+PanelTray, PanelClock  {
+    background-color: @panel_bg_color;
 }
 
 GtkMenu {
@@ -52,41 +52,44 @@ PanelItem:prelight {
 
 PanelWindowPager,
 PanelWindowEntry {
-    background-color: @panel_bg_color;
-    color: #808080; 
+    background-color: transparent;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
 }
 
 PanelWindowEntry:selected {
-    background-color: #AA0000; 
+    background-color: #FFFF00; 
     color: #ffffff;
 }
 
 PanelWindowEntry:active {
-    background-color: #e5e5e5; 
-    color: #ffffff; 
+    background-color: #DDDDDD;
+    color: #ffffff;
 }
 
 PanelWindowEntry:prelight {
-    background-color: #bfbfbf;
-    color: #2c2c2c; 
+    background-color: #FFFFFF;
+    color: #ffffff; 
 }
 
 PanelWindowEntry:insensitive {
-    background-color: #303030; 
-    color: #808080;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 GtkWindow {
-    background-color: rgba(247,247,247,0);
+    background: inherite; /*rgba(247,247,247,0);*/
 }
 
 PanelClock {
     font: Sans;
     color: @clock_fg_color;
     text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.5);
-    background-color: @panel_bg_color; /*color: rgba(0.5, 0.5, 0.5, 0.5);*/
+/*  background-image: rgba(0.5, 0.5, 0.5, 0.5);
     border-color: #000000;
     border-style: solid;
     border-width: 25px;
-    border-radius: 10px;
+    border-radius: 10px;*/
 }

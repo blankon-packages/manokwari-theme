@@ -1,3 +1,9 @@
+krawu-theme (0.2.13) rote-updates; urgency=low
+
+  * Fork from Amira color
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 15 Nov 2012 11:22:34 +0700
+
 krawu-theme (0.2.12) rote; urgency=low
 
   * fix progressbar texture

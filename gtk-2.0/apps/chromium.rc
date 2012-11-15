@@ -1,38 +1,15 @@
-# ==============================================================================
-# CHROMIUM SPECIFIC SETTINGS
-# ==============================================================================
-
-style "chromium_toolbar_button" {
-	engine "murrine" {
-		roundness = 3
-		textstyle = 0
-	}
-}
-
+# Google Chrome/Chromium theming (requires 9.0.597 or newer)
 style "chrome-gtk-frame"
 {
-	ChromeGtkFrame::frame-color = @bg_color
-	ChromeGtkFrame::inactive-frame-color = @bg_color
+    ChromeGtkFrame::frame-color = shade (0.5, @bg_color)
+    ChromeGtkFrame::inactive-frame-color = shade (0.5, @bg_color)
 
-	ChromeGtkFrame::frame-gradient-size = 16
-	ChromeGtkFrame::frame-gradient-color = @bg_color
+    ChromeGtkFrame::frame-gradient-size = 100
+    ChromeGtkFrame::frame-gradient-color = shade (1.08,@bg_color)
+    ChromeGtkFrame::inactive-frame-gradient-color = shade (1.08,@bg_color)
 
-	ChromeGtkFrame::incognito-frame-color = @bg_color
-	ChromeGtkFrame::incognito-inactive-frame-color = @bg_color
-
-	ChromeGtkFrame::incognito-frame-gradient-size = 16
-	ChromeGtkFrame::incognito-frame-gradient-color = @bg_color
-
-	ChromeGtkFrame::scrollbar-trough-color = shade (0.912, @bg_color)
-	ChromeGtkFrame::scrollbar-slider-prelight-color = shade (1.04, @bg_color)
-	ChromeGtkFrame::scrollbar-slider-normal-color = @bg_color
+    ChromeGtkFrame::scrollbar-trough-color = @base_color
+    ChromeGtkFrame::scrollbar-slider-prelight-color = @panel_bg
+    ChromeGtkFrame::scrollbar-slider-normal-color = shade (1.4, @panel_bg)
 }
-
-class "ChromeGtkFrame" style "chrome-gtk-frame"
-widget_class "*Chrom*Button*" style "chromium_toolbar_button"
-
-
-
-
-
-
+class "ChromeGtkFrame"		style "chrome-gtk-frame"
