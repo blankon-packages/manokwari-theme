@@ -1,4 +1,4 @@
-Source: Semanggi-theme
+Source: semanggi-theme
 Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.2
 Vcs-Bzr: http://dev.blankonlinux.or.id/bzr/rote/krawu-themes
 
-Package: Semanggi-theme
+Package: semanggi-theme
 Architecture: all
 Depends: ${misc:Depends}, gtk3-engines-unico, gtk2-engines-murrine
 Description: Semanggi Theme like BlankOn
