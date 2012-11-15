@@ -1,11 +1,11 @@
 [X-GNOME-Metatheme]
-Name=Krawu
+Name=Semanggi
 Type=X-GNOME-Metatheme
-Comment=GTK3 THEME LIKE BLANKON
+Comment=GTK3 THEME LIKE BLANKON SUROBOYO
 Version=1.0
 Encoding=UTF-8
-GtkTheme=Krawu
-MetacityTheme=Krawu
+GtkTheme=Semanggi
+MetacityTheme=Semanggi
 IconTheme=Komodo-Coklat
 CursorTheme=DMZ-White
 CursorSize=24

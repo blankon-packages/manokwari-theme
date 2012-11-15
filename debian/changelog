@@ -1,3 +1,10 @@
+Semanggi-theme (0.2.14) suroboyo; urgency=low
+
+  * Semanggi-theme for suroboyo
+    - remove temporary Komodo-icon-theme
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 15 Nov 2012 11:32:02 +0700
+
 krawu-theme (0.2.13) rote-updates; urgency=low
 
   * Fork from Amira color
