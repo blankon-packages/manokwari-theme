@@ -1,11 +1,12 @@
-[X-GNOME-Metatheme]
-Name=Semanggi
+[Desktop Entry]
 Type=X-GNOME-Metatheme
-Comment=GTK3 THEME LIKE BLANKON SUROBOYO
-Version=1.0
+Name=Semanggi
+Comment=A simple and minimal light theme for Gnome
 Encoding=UTF-8
+
+[X-GNOME-Metatheme]
 GtkTheme=Semanggi
 MetacityTheme=Semanggi
-IconTheme=Komodo-Coklat
+IconTheme=Komodo
 CursorTheme=DMZ-White
 CursorSize=24

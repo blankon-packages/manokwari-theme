@@ -1,25 +1,15 @@
-/* default color scheme */
-@define-color bg_color #ccc;
-@define-color fg_color #333;
-@define-color base_color #fff;
-@define-color text_color #000;
-@define-color selected_bg_color #58e;
-@define-color selected_fg_color #eee;
-@define-color tooltip_bg_color #ccc;
-@define-color tooltip_fg_color #333;
-
-/* colormap actually used by the theme, to be overridden in other css files */
-@define-color theme_bg_color @bg_color;
-@define-color theme_fg_color @fg_color;
-@define-color theme_base_color @base_color;
-@define-color theme_text_color @text_color;
-@define-color theme_selected_bg_color @selected_bg_color;
-@define-color theme_selected_fg_color @selected_fg_color;
-@define-color theme_tooltip_bg_color @tooltip_bg_color;
-@define-color theme_tooltip_fg_color @tooltip_fg_color;
+/* dark colormap */
+@define-color theme_bg_color #333;
+@define-color theme_fg_color #eee;
+@define-color theme_base_color #3c3c3c;
+@define-color theme_text_color #eee;
+@define-color theme_selected_bg_color #58e;
+@define-color theme_selected_fg_color #fff;
+@define-color theme_tooltip_bg_color #333;
+@define-color theme_tooltip_fg_color #eee;
 
 /* shadow effects */
-@define-color light_shadow #fff;
+@define-color light_shadow #444;
 @define-color dark_shadow #000;
 
 /* misc colors used by gtk+ */
@@ -57,4 +47,3 @@
 @import url("apps/gnome-applications.css");
 @import url("apps/granite-widgets.css");
 @import url("apps/unity.css");
-@import url("manokwari.css");
