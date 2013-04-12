@@ -1,0 +1,12 @@
+Version 1.02 (2013-04-09)
+-------------------------
+- Added two color variants (Mint and Orange)
+- Added another tab style: @import url("tabs-rounded.css"); (see readme.txt)
+
+Version 1.01 (2013-04-03)
+--------------------------
+- Added support for xfce
+
+Version 1.0 (2013-04-02)
+--------------------------
+- See readme.txt

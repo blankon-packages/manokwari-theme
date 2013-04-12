@@ -50,11 +50,15 @@ PanelItem:prelight {
     background-color: #0044AA; 
 }
 
-PanelWindowPager,
+PanelWindowPager {
+    background-color: #d4d4d4; 
+    color: #ffffff;
+}
+
 PanelWindowEntry {
     background-color: transparent;
-    border-radius: 4px;
-    border-width: 1px;
+    border-radius: 2px;
+    border-width: 0px;
     border-color: #E5E5E5;
     border-style: solid;
 }
@@ -65,12 +69,12 @@ PanelWindowEntry:selected {
 }
 
 PanelWindowEntry:active {
-    background-color: #DDDDDD;
+    background-color: #d4d4d4;
     color: #ffffff;
 }
 
 PanelWindowEntry:prelight {
-    background-color: #FFFFFF;
+    background-color: #eeeeee;
     color: #ffffff; 
 }
 
@@ -80,11 +84,14 @@ PanelWindowEntry:insensitive {
 }
 
 GtkWindow {
-    background: inherite; /*rgba(247,247,247,0);*/
+    color: #0000FF;
+    text-shadow: 0 1 alpha (shade (#fff, 1.0), 0.5);
+    font-size: 10px;
 }
 
 PanelClock {
     font: Sans;
+    font-size: 10px;
     color: @clock_fg_color;
     text-shadow: 0 1 alpha (shade (@theme_bg_color, 1.25), 0.5);
 /*  background-image: rgba(0.5, 0.5, 0.5, 0.5);

@@ -1,152 +1,310 @@
-/*******************
- * check and radio *
- *******************/
-/* draw regular check and radio items using our assets */
+/*************************
+ * Check and Radio items *
+ *************************/
+
+.check,
+.radio,
+.check:active,
+.radio:active,
+.check:insensitive,
+.radio:insensitive {
+    -GtkWidget-focus-padding: 0;
+    -GtkWidget-focus-line-width: 3;
+    -GtkWidget-focus-border-radius: 3;
+	-GtkWidget-focus-border-color: #f00;
+    -GtkWidget-focus-fill-color:   alpha (@theme_selected_bg_color, 0.1);
+    background-color: transparent;
+    border-style: none;
+}
+
+GtkCheckButton:hover,
+GtkCheckButton:active:hover,
+GtkCheckButton:selected,
+GtkCheckButton:selected:focus {
+    background-color: transparent;
+}
+
 .check,
 .check row:selected,
-.check row:selected:focus {
+.check row:selected:focused {
     background-image: url("assets/checkbox-unchecked.png");
 }
 
 .check:insensitive,
 .check row:selected:insensitive,
-.check row:selected:focus:insensitive {
+.check row:selected:focused:insensitive {
     background-image: url("assets/checkbox-unchecked-insensitive.png");
+    background-color: transparent;
 }
 
 .check:active,
 .check row:selected:active,
-.check row:selected:focus:active {
+.check row:selected:focused:active {
     background-image: url("assets/checkbox-checked.png");
+
 }
 
 .check:active:insensitive,
 .check row:selected:active:insensitive,
-.check row:selected:focus:active:insensitive {
+.check row:selected:focused:active:insensitive {
     background-image: url("assets/checkbox-checked-insensitive.png");
+    background-color: transparent;
 }
 
 .check:inconsistent,
 .check row:selected:inconsistent,
-.check row:selected:focus:inconsistent {
+.check row:selected:focused:inconsistent {
     background-image: url("assets/checkbox-mixed.png");
+
 }
 
 .check:inconsistent:insensitive,
 .check row:selected:inconsistent:insensitive,
-.check row:selected:focus:inconsistent:insensitive {
+.check row:selected:focused:inconsistent:insensitive {
     background-image: url("assets/checkbox-mixed-insensitive.png");
+
 }
 
 .radio,
 .radio row:selected,
-.radio row:selected:focus {
+.radio row:selected:focused {
     background-image: url("assets/radio-unselected.png");
 }
 
 .radio:insensitive,
 .radio row:selected:insensitive,
-.radio row:selected:focus:insensitive {
+.radio row:selected:focused:insensitive {
     background-image: url("assets/radio-unselected-insensitive.png");
 }
 
 .radio:active,
 .radio row:selected:active,
-.radio row:selected:focus:active {
-    background-image: url("assets/radio-selected.png");
+.radio row:selected:focused:active {
+	background-image: url("assets/radio-selected.png");
 }
 
 .radio:active:insensitive,
 .radio row:selected:active:insensitive,
-.radio row:selected:focus:active:insensitive {
+.radio row:selected:focused:active:insensitive {
     background-image: url("assets/radio-selected-insensitive.png");
 }
 
 .radio:inconsistent,
 .radio row:selected:inconsistent,
-.radio row:selected:focus:inconsistent {
+.radio row:selected:focused:inconsistent {
     background-image: url("assets/radio-mixed.png");
+
 }
 
 .radio:inconsistent:insensitive,
 .radio row:selected:inconsistent:insensitive,
-.radio row:selected:focus:inconsistent:insensitive {
+.radio row:selected:focused:inconsistent:insensitive {
     background-image: url("assets/radio-mixed-insensitive.png");
+    background-color: transparent;
 }
 
-.menuitem.check:active {
-    background-image: url("assets/menuitem-checkbox-checked.png");
+/*
+.sidebar .radio:active,
+.sidebar .radio:active:focused,
+.sidebar .radio:active:prelight {
+    background-image: url("assets/sidebar-radio-checked.svg");
 }
 
-.menuitem.check:active:insensitive {
-    background-image: url("assets/menuitem-checkbox-checked-insensitive.png");
+.sidebar .radio:active,
+.sidebar .radio:active:focused,
+.sidebar .radio:active:prelight {
+    background-image: url("assets/sidebar-radio-checked.svg");
 }
 
-.menuitem.check:inconsistent,
-.menuitem.radio:inconsistent {
-    background-image: url("assets/menuitem-checkbox-mixed.png");
+.sidebar .radio:prelight {
+    background-image: url("assets/sidebar-radio-prelight.svg");
 }
 
-.menuitem.check:inconsistent:insensitive,
-.menuitem.radio:inconsistent:insensitive {
-    background-image: url("assets/menuitem-checkbox-mixed-insensitive.png");
+.sidebar .radio:active:selected,
+.sidebar .radio:active:selected:focused {
+    background-image: url("assets/sidebar-radio-selected.svg");
 }
 
-.menuitem.radio:active {
-    background-image: url("assets/menuitem-radio-checked.png");
+.sidebar .radio:selected:prelight,
+.sidebar .radio:selected:focused {
+    background-image: url("assets/sidebar-radio-selected-prelight.svg");    
 }
 
-.menuitem.radio:active:insensitive {
-    background-image: url("assets/menuitem-radio-checked-insensitive.png");
+*/
+.primary-toolbar GtkComboBox.combobox-entry .button,
+GtkComboBox.combobox-entry .button,
+.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(last),
+GtkComboBox.combobox-entry .button:nth-child(last) {
+
 }
 
-/*******************
- * backdrop states *
- *******************/
-.check:active:backdrop,
-.check row:selected:active:backdrop,
-.check row:selected:focus:active:backdrop {
-    background-image: url("assets/checkbox-checked-backdrop.png");
+.primary-toolbar GtkComboBox.combobox-entry .button:active,
+.primary-toolbar GtkComboBox.combobox-entry .button:hover:active,
+GtkComboBox.combobox-entry .button:active,
+GtkComboBox.combobox-entry .button:hover:active,
+.primary-toolbar GtkComboBox.combobox-entry .button:active:nth-child(last),
+.primary-toolbar GtkComboBox.combobox-entry .button:hover:active:nth-child(last),
+GtkComboBox.combobox-entry .button:active:nth-child(last),
+GtkComboBox.combobox-entry .button:hover:active:nth-child(last) {
+   
 }
 
-.check:active:insensitive:backdrop,
-.check row:selected:active:insensitive:backdrop,
-.check row:selected:focus:active:insensitive:backdrop {
-    background-image: url("assets/checkbox-checked-insensitive.png");
+/* for RTL languages */
+.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(first),
+GtkComboBox.combobox-entry .button:nth-child(first) {
+
 }
 
-.check:inconsistent:backdrop,
-.check row:selected:inconsistent:backdrop,
-.check row:selected:focus:inconsistent:backdrop {
-    background-image: url("assets/checkbox-mixed-backdrop.png");
+.primary-toolbar GtkComboBox.combobox-entry .button:active:nth-child(first),
+.primary-toolbar GtkComboBox.combobox-entry .button:hover:active:nth-child(first),
+GtkComboBox.combobox-entry .button:active:nth-child(first),
+GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
+
 }
 
-.check:inconsistent:insensitive:backdrop,
-.check row:selected:inconsistent:insensitive:backdrop,
-.check row:selected:focus:inconsistent:insensitive:backdrop {
-    background-image: url("assets/checkbox-mixed-insensitive.png");
+GtkScale.trough,
+GtkScale.trough.horizontal {
+
 }
 
-.radio:active:backdrop,
-.radio row:selected:active:backdrop,
-.radio row:selected:focus:active:backdrop {
-    background-image: url("assets/radio-selected-backdrop.png");
+GtkScale.trough.vertical {
+
 }
 
-.radio:active:insensitive:backdrop,
-.radio row:selected:active:insensitive:backdrop,
-.radio row:selected:focus:active:insensitive:backdrop {
-    background-image: url("assets/radio-selected-insensitive.png");
+
+GtkScale.progressbar.horizontal {
+    
 }
 
-.radio:inconsistent:backdrop,
-.radio row:selected:inconsistent:backdrop,
-.radio row:selected:focus:inconsistent:backdrop {
-    background-image: url("assets/radio-mixed-backdrop.png");
+GtkScale.progressbar.vertical {
+    
 }
 
-.radio:inconsistent:insensitive:backdrop,
-.radio row:selected:inconsistent:insensitive:backdrop,
-.radio row:selected:focus:inconsistent:insensitive:backdrop {
-    background-image: url("assets/radio-mixed-insensitive.png");
+GtkScale.slider,
+GtkScale.slider.horizontal,
+GtkScale.slider.horizontal:hover {
+    background-image: url("assets/scale-slider-horizontal.svg");
 }
+
+GtkScale.slider:insensitive,
+GtkScale.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+}
+
+GtkScale.slider.vertical {
+    background-image: url("assets/scale-slider-vertical.svg");
+}
+
+GtkScale.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.horizontal,
+GtkScale.scale-has-marks-above.slider.horizontal:hover {
+    background-image: url("assets/scale-slider-horizontal.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.vertical {
+    background-image: url("assets/scale-slider-vertical.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.horizontal,
+GtkScale.scale-has-marks-below.slider.horizontal:hover {
+    background-image: url("assets/scale-slider-horizontal.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.vertical {
+    background-image: url("assets/scale-slider-vertical.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+}
+
+
+/**********
+ * switch *
+ **********/
+GtkSwitch {
+    border-radius: 8px;
+    padding: 0;
+}
+
+.toolbar GtkSwitch.trough,
+
+.primary-toolbar .toolbar GtkSwitch.trough,
+.primary-toolbar.toolbar GtkSwitch.trough,
+GtkSwitch.trough,
+GtkSwitch.trough:backdrop {
+    border: none;
+    border-image: none;
+    background: none;
+    color: transparent;
+    box-shadow: none;
+    background-image: url("assets/switch-off.svg");
+    background-size: 56px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+
+GtkSwitch.trough {
+    background-image: url("assets/switch-off.svg");
+}
+
+GtkSwitch.trough:active {
+    background-image: url("assets/switch-on.svg");
+}
+
+GtkSwitch.trough:insensitive {
+    background-image: url("assets/switch-off-disabled.svg");
+}
+
+GtkSwitch.trough:active:insensitive {
+    background-image: url("assets/switch-on-disabled.svg");
+}
+
+.toolbar.menubar GtkSwitch.trough,
+.primary-toolbar .toolbar GtkSwitch.trough,
+.primary-toolbar.toolbar GtkSwitch.trough {
+    background-image: url("assets/switch-off.svg");
+}
+
+.toolbar.menubar GtkSwitch.trough:active,
+.primary-toolbar .toolbar GtkSwitch.trough:active,
+.primary-toolbar.toolbar GtkSwitch.trough:active {
+    background-image: url("assets/switch-on.svg");
+}
+
+.toolbar.menubar GtkSwitch.trough:insensitive,
+.primary-toolbar .toolbar GtkSwitch.trough:insensitive,
+.primary-toolbar.toolbar GtkSwitch.trough:insensitive {
+    background-image: url("assets/switch-off-disabled.svg");
+}
+
+.toolbar.menubar GtkSwitch.trough:active:insensitive,
+.primary-toolbar .toolbar GtkSwitch.trough:active:insensitive,
+.primary-toolbar.toolbar GtkSwitch.trough:active:insensitive {
+    background-image: url("assets/switch-on-disabled.svg");
+}
+
+GtkSwitch.slider {
+    border: none;
+    border-image: none;
+    background: none;
+    color: transparent;
+    box-shadow: none;
+}
+

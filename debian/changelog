@@ -1,3 +1,11 @@
+semanggi-theme (0.2.16) suroboyo; urgency=low
+
+  * Adjust some css:
+    - theme support gtk3.8
+    - gtk-3.0/gtk-widget.css: remove unico
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 12 Apr 2013 15:26:00 +0700
+
 semanggi-theme (0.2.15) suroboyo; urgency=low
 
   * Added from Evolve
