@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.2
 Vcs-Bzr: http://dev.blankonlinux.or.id/bzr/rote/krawu-themes
 
-Package: semanggi-theme
+Package: manokwari-theme
 Architecture: all
 Depends: ${misc:Depends}, gtk3-engines-unico, gtk2-engines-murrine
-Description: Semanggi Theme like BlankOn
- Semanggi theme BlankOn
+Description: Manokwari Theme like BlankOn
+ Manokwari theme BlankOn
