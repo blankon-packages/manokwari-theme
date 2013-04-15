@@ -5,8 +5,8 @@ Comment=A simple and minimal light theme for Gnome
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Semanggi
-MetacityTheme=Semanggi
+GtkTheme=Manokwari
+MetacityTheme=Manokwari
 IconTheme=Komodo
 CursorTheme=DMZ-White
 CursorSize=24

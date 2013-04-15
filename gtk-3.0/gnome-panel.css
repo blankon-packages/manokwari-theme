@@ -35,19 +35,25 @@ ClockBox,
 
 PanelApplet > GtkMenuBar.menubar .menuitem {
     padding: 0px;
+
 }
 
 PanelApplet .button,
 PanelApplet .button:prelight,
 PanelApplet .button *:prelight {
-    background-image: none;
-    background-color: alpha(@theme_base_color, 0.0);
+    /* padding: 4px; */
 
     border-image: none;
     border-width: 0px;
     border-radius: 0px;
-	
-	box-shadow: none;
+/*
+	-unico-border-gradient: none;
+    -unico-outer-stroke-width: 0px;
+    -unico-outer-stroke-gradient:  none;
+	-unico-inner-stroke-width: 0px;
+*/
+    background-image: none;
+    background-color: alpha(@theme_base_color, 0.0);
 
     color: @os_chrome_fg_color;
 	text-shadow: none;
@@ -64,17 +70,16 @@ PanelApplet .button:active:prelight,
 PanelApplet .button *:active:prelight {
     border-image: none;
     background-color: @os_chrome_selected_bg_color;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade(@theme_selected_bg_color, 0.9)),
-                                     to   (shade(@theme_selected_bg_color, 1.0)));
+    background-image: -gtk-gradient (linear,
+                                     left top, left bottom,
+                                     from (shade(@theme_selected_bg_color, 1.30)),
+                                     to (shade(@theme_selected_bg_color, 1.00)));
 
 	color: @os_chrome_selected_fg_color;
 	text-shadow: none;
     border-width: 0px;
     border-radius: 0px;
     border-image: none;
-
-	box-shadow: none;
 
 }
 
@@ -85,7 +90,7 @@ PanelApplet *:prelight {
 PanelApplet *:active,
 PanelApplet *:prelight:active {
     color: @os_chrome_selected_fg_color;
-    text-shadow: 0px 1px @theme_selected_shadow_color;
+    text-shadow: 0px 1px shade (#2255F5, 0.6);
 }
 
 NaTrayApplet {
