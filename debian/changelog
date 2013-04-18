@@ -1,3 +1,9 @@
+manokwari-theme (0.4) UNRELEASED; urgency=low
+
+  *changes index.theme 
+
+ -- Adnan Kashogi <adnan@linuz.web.id>  Thu, 18 Apr 2013 18:51:12 +0000
+
 manokwari-theme (0.3) suroboyo; urgency=low
 
   * changes index.theme, Semanggi > Manokwari.
