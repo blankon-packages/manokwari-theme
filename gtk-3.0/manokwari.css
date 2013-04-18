@@ -7,19 +7,20 @@
 @define-color window_desc_bg_hover_color #a0a0a0;
 @define-color window_desc_fg_hover_color #010101;
 
-@define-color clock_fg_color #d0d0d0; 
+@define-color clock_fg_color #eeeeee; 
 
 
 PanelWindowHost {
-    background-image: linear-gradient(#1c1c1c, #3d3d3d);
+    background-image: linear-gradient(#202020, #3d3d3d, #3d3d3d);
     background-color: @panel_bg_color; 
 }
 
 PanelWindowEntryDescriptions {
     background-color: rgba(0,0,0,0);
     color: @clock_fg_color;
-    text-shadow: 0 -1px 1px @panel_fg_color;
+    text-shadow: 0 -1px 1px #222;
     font: 9px;
+    font-weight: bold;
 }
 
 PanelTray {
@@ -31,8 +32,9 @@ PanelClock {
 	background-color: @panel_bg_color; 
     font: Sans;
     color: @clock_fg_color;
-    text-shadow: 0 -1px 1px #cccccc;
-    font-size: 10px;
+    text-shadow: 0 -1px 1px #222;
+    font-size: 10.5px;
+    font-weight: bold;
 }
 
 PanelMenuBox {
@@ -74,19 +76,15 @@ PanelWindowEntry,
 PanelWindowEntry:selected {
     background-color: transparent; 
     color: #ffffff;
-    border-radius: 2px;
-    border-width: 0px;
-    border-color: none;
-    border-style: solid;
 }
 
 PanelWindowEntry:active {
-    background-color: #bbb;
+    background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
     color: #ffffff;
 }
 
 PanelWindowEntry:prelight {
-    background-color: #bbb;
+    background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
     color: #ffffff; 
 }
 
@@ -96,35 +94,15 @@ PanelWindowEntry:insensitive {
 }
 
 PanelWindowPagerEntry {
-	background-color: linear-gradient(#1c1c1c, #3d3d3d);
-    border-radius: 0px;
-    border-width: 0 1px 0 1px;
-    border-color: none;
-    border-style: solid;
+	background-image: linear-gradient(#202020, #3d3d3d, #3d3d3d);
+	color: @panel_fg_color;
 }
 
-PanelAbstractWindow {
-    background-color: linear-gradient(#1c1c1c, #3d3d3d);
-}
+/*PanelAbstractWindow {
+    background-color: rgba(0,0,0,0);
+}*/
 
 PanelCalendar {
 	background-color: @theme_bg_color;
 	color: @theme_fg_color;
 }
-
-
-/***********************************************************************
-**** This Script Modification To GtkWindow in gtk-widgets.css file ****
-/***********************************************************************
-
-GtkWindow {
-    color: @theme_fg_color;
-    background-color: @theme_bg_color;
-}
-
-* {
-    /* inherit the color from parent by default *
-    color: inherit;
-    background-color: inherit;
-}
-***********************************************************************/
