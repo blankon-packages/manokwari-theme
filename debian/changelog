@@ -1,3 +1,9 @@
+manokwari-theme (0.6) suroboyo; urgency=low
+
+  * fix problem.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Sat, 14 Sep 2013 00:44:28 +0700
+
 manokwari-theme (0.5) suroboyo; urgency=low
 
   * fix when running as sudo.
