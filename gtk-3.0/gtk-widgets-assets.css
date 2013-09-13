@@ -8,11 +8,6 @@
 .radio:active,
 .check:insensitive,
 .radio:insensitive {
-    -GtkWidget-focus-padding: 0;
-    -GtkWidget-focus-line-width: 3;
-    -GtkWidget-focus-border-radius: 3;
-	-GtkWidget-focus-border-color: #f00;
-    -GtkWidget-focus-fill-color:   alpha (@theme_selected_bg_color, 0.1);
     background-color: transparent;
     border-style: none;
 }
@@ -183,54 +178,54 @@ GtkScale.progressbar.vertical {
 GtkScale.slider,
 GtkScale.slider.horizontal,
 GtkScale.slider.horizontal:hover {
-    background-image: url("assets/scale-slider-horizontal.svg");
+    background-image: url("assets/scale-slider-hor.svg");
 }
 
 GtkScale.slider:insensitive,
 GtkScale.slider.horizontal:insensitive {
-    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+    background-image: url("assets/scale-slider-insensitive-hor.svg");
 }
 
 GtkScale.slider.vertical {
-    background-image: url("assets/scale-slider-vertical.svg");
+    background-image: url("assets/scale-slider-ver.svg");
 }
 
 GtkScale.slider.vertical:insensitive {
-    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+    background-image: url("assets/scale-slider-insensitive-ver.svg");
 }
 
 GtkScale.scale-has-marks-above.slider.horizontal,
 GtkScale.scale-has-marks-above.slider.horizontal:hover {
-    background-image: url("assets/scale-slider-horizontal.svg");
+    background-image: url("assets/scale-slider-marks-above-horizontal.svg");
 }
 
 GtkScale.scale-has-marks-above.slider.horizontal:insensitive {
-    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+    background-image: url("assets/scale-slider-marks-above-horizontal-insensitive.svg");
 }
 
 GtkScale.scale-has-marks-above.slider.vertical {
-    background-image: url("assets/scale-slider-vertical.svg");
+    background-image: url("assets/scale-slider-marks-above-vertical.svg");
 }
 
 GtkScale.scale-has-marks-above.slider.vertical:insensitive {
-    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+    background-image: url("assets/scale-slider-marks-above-vertical-insensitive.svg");
 }
 
 GtkScale.scale-has-marks-below.slider.horizontal,
 GtkScale.scale-has-marks-below.slider.horizontal:hover {
-    background-image: url("assets/scale-slider-horizontal.svg");
+    background-image: url("assets/scale-slider-marks-below-horizontal.svg");
 }
 
 GtkScale.scale-has-marks-below.slider.horizontal:insensitive {
-    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+    background-image: url("assets/scale-slider-marks-below-horizontal-insensitive.svg");
 }
 
 GtkScale.scale-has-marks-below.slider.vertical {
-    background-image: url("assets/scale-slider-vertical.svg");
+    background-image: url("assets/scale-slider-marks-below-vertical.svg");
 }
 
 GtkScale.scale-has-marks-below.slider.vertical:insensitive {
-    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+    background-image: url("assets/scale-slider-marks-below-vertical-insensitive.svg");
 }
 
 
@@ -242,8 +237,7 @@ GtkSwitch {
     padding: 0;
 }
 
-.toolbar GtkSwitch.trough,
-
+.toolbar.menubar GtkSwitch.trough,
 .primary-toolbar .toolbar GtkSwitch.trough,
 .primary-toolbar.toolbar GtkSwitch.trough,
 GtkSwitch.trough,

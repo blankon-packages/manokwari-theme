@@ -1,70 +1,64 @@
-@define-color panel_bg_color #333333;
-@define-color panel_fg_color #cccccc;
+@define-color panel_bg_color #1a1a1a;
+@define-color panel_fg_color #eeeeee;
 @define-color window_desc_bg_color #4e70b0;
 @define-color window_desc_fg_color #00001e;
 @define-color window_desc_bg_minimized_color #606090;
 @define-color window_desc_fg_minimized_color #010101;
 @define-color window_desc_bg_hover_color #a0a0a0;
 @define-color window_desc_fg_hover_color #010101;
+@define-color clock_bg_color @panel_bg_color;
+@define-color clock_fg_color @panel_fg_color; 
 
-@define-color clock_fg_color #eeeeee; 
-
-
-PanelWindowHost {
-    background-image: linear-gradient(#202020, #3d3d3d, #3d3d3d);
-    background-color: @panel_bg_color; 
+PanelWindowHost,
+PanelWindowPagerEntry {
+	background:linear-gradient(rgba(26,26,26,1),rgba(26,26,26,1),rgba(31,31,31,1));
+	background-color: @panel_bg_color;
+	color: @panel_fg_color;
 }
 
 PanelWindowEntryDescriptions {
-    background-color: rgba(0,0,0,0);
-    color: @clock_fg_color;
-    text-shadow: 0 -1px 1px #222;
-    font: 9px;
-    font-weight: bold;
+	background-color: black;
+	color: @panel_fg_color;
+	text-shadow: -1px 1px 1px #000;
+	font: Sans;
+	font-size: 8px;
+	font-weight: bold;
 }
 
+/*PanelAbstractWindow  {
+	background-color: black;
+	color: @panel_fg_color;
+}*/
+
 PanelTray {
-    background-color: @panel_bg_color; 
-    background-image: linear-gradient(#1c1c1c, #3d3d3d);
+	background: @panel_bg_color;
+	color: @panel_fg_color;
 }
 
 PanelClock {
-	background-color: @panel_bg_color; 
-    font: Sans;
-    color: @clock_fg_color;
-    text-shadow: 0 -1px 1px #222;
-    font-size: 10.5px;
-    font-weight: bold;
+	background: @clock_bg_color;
+	color: @clock_fg_color;
+	font: Sans;
+	text-shadow: -1px 1px 1px #000;
+	font-size: 10.5px;
+	/*font-weight: bold;*/
 }
 
-PanelMenuBox {
-    background-color: @panel_bg_color; 
-    color: @panel_fg_color;
+PanelWindowEntry,
+PanelWindowEntry:selected,
+PanelWindowEntry:insensitive {
+	background-color: transparent; 
+	color: transparent; 
 }
 
-GtkMenu {
-    color: @panel_fg_color;
-    background-color: @panel_bg_color;
+PanelWindowEntry:active {
+	background: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
+	color: @panel_fg_color;
 }
 
-GtkMenuItem:hover {
-    color: #ffffff;
-    background-color: #0044AA; 
-}
-
-
-PanelMenuContent > GtkSeparator {
-    background-color: #000000;
-}
-
-PanelItem {
-    color: #aaaaaa;
-    font: Sans Bold;
-}
-
-PanelItem:prelight {
-    color: #ffffff;
-    background-color: #0044AA; 
+PanelWindowEntry:prelight {
+	background: linear-gradient(#cacaca, #ffffff, #cacaca);
+	color: @panel_fg_color;
 }
 
 PanelWindowPager {
@@ -72,37 +66,13 @@ PanelWindowPager {
 	color: @theme_fg_color;
 }
 
-PanelWindowEntry,
-PanelWindowEntry:selected {
-    background-color: transparent; 
-    color: #ffffff;
-}
-
-PanelWindowEntry:active {
-    background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
-    color: #ffffff;
-}
-
-PanelWindowEntry:prelight {
-    background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
-    color: #ffffff; 
-}
-
-PanelWindowEntry:insensitive {
-    background-color: transparent;
-    color: #ffffff;
-}
-
-PanelWindowPagerEntry {
-	background-image: linear-gradient(#202020, #3d3d3d, #3d3d3d);
-	color: @panel_fg_color;
-}
-
-/*PanelAbstractWindow {
-    background-color: rgba(0,0,0,0);
-}*/
-
 PanelCalendar {
 	background-color: @theme_bg_color;
 	color: @theme_fg_color;
 }
+
+* {
+	background-color: inherit;
+	color: inherit;
+}
+

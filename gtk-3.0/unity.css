@@ -1,22 +1,20 @@
 UnityPanelWidget,
 .unity-panel {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade(@theme_bg_dark_color, 0.98)),
+
+    background-image: url("assets/background-noise-toolbar.png"),
+					  -gtk-gradient (linear, left top, left bottom,
+                                     from (shade(@theme_bg_dark_color, 1.08)),
                                      to   (shade(@theme_bg_dark_color, 1.00)));
 
-    border-width:   0px;
-	border-style:   none;
-    box-shadow:     none; 
+    border-width: 0px;
+	border-style: none;
+
 }
 
 .unity-panel.menubar,
 .unity-panel .menubar {
-    color:			@theme_fg_dark_color;
-	text-shadow: 	0px 1px @theme_shadow_dark_color;    
-
-    border-width:   0px;
-	border-style:   none;
-    box-shadow:     none;
+    color:				@theme_fg_dark_color;
+	text-shadow: 		0px 1px @theme_shadow_dark_color;    
 }
 
 .unity-panel.menuitem,

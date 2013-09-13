@@ -92,13 +92,13 @@ NaTrayApplet {
     -NaTrayApplet-icon-padding: 3px;
     -NaTrayApplet-icon-size: 16px;
 }
-
+/*
 WnckPager, WnckTasklist {
     background-color: @os_chrome_selected_bg_color;
     background-image: none;
     color: @os_chrome_fg_color;
 	text-shadow: none;
-}
+}*/
 
 GsmFailWhaleDialog {
     background-color: @os_chrome_bg_color;
