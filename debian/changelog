@@ -1,3 +1,9 @@
+manokwari-theme (0.8) suroboyo; urgency=low
+
+  * fix gtk.widget.css line 1668
+
+ -- mijortsa <mijortsa@toshi>  Thu, 31 Oct 2013 23:17:38 +0700
+
 manokwari-theme (0.7) suroboyo; urgency=low
 
   * fix hover non selected
