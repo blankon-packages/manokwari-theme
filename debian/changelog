@@ -1,3 +1,9 @@
+manokwari-theme (1.0) suroboyo; urgency=low
+
+  * typo #transparent line 470
+
+ -- mijortsa <mijortsa@toshi>  Sat, 16 Nov 2013 00:43:32 +0700
+
 manokwari-theme (0.9) suroboyo; urgency=low
 
   * fix raishing media
