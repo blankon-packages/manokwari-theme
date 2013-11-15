@@ -3,9 +3,9 @@
 # based on "Bluebird" by Simon Steinbeiß and Pasi Lallinaho
 # Description: As is the original theme, this theme is 100% free and open source.
 
-gtk-color-scheme	= "bg_color:#e0e0e0\nselected_bg_color:#a1a1a1\nbase_color:#f7f7f7" # Background, base.
-gtk-color-scheme	= "fg_color:#3C3C3C\nselected_fg_color:#ffffff\ntext_color:#212121" # Foreground, text. 
-gtk-color-scheme	= "tooltip_bg_color:#000000\ntooltip_fg_color:#E1E1E1" # Tooltips.
+gtk-color-scheme	= "bg_color:#e0e0e0\nselected_bg_color:#cccccc\nbase_color:#f7f7f7" # Background, base.
+gtk-color-scheme	= "fg_color:#3C3C3C\nselected_fg_color:#222222\ntext_color:#212121" # Foreground, text. 
+gtk-color-scheme	= "tooltip_bg_color:#292929\ntooltip_fg_color:#eee" # Tooltips.
 gtk-color-scheme	= "link_color:#4d4d4d" # Hyperlinks
 gtk-color-scheme	= "panel_bg:#686868" # Panel bg color
 gtk-color-scheme	= "fm_color:#F7F7F7" # Color used in Nautilus and Thunar.
@@ -59,8 +59,8 @@ style "default"
 	GtkScale		::slider-width				= 15
 	GtkScale		::trough-side-details			= 1
 
-	GtkScrollbar		::min-slider-length			= 50
-	GtkScrollbar		::slider-width				= 9
+	GtkScrollbar		::min-slider-length			= 30
+	GtkScrollbar		::slider-width				= 8
 	#GtkScrollbar		::activate-slider			= 1
 	GtkScrollbar		::trough-border				= 3
 	GtkScrollbar		::has-backward-stepper 			= 1
@@ -392,12 +392,12 @@ style "tooltips" = "wider"
 	ythickness = 4
 
 	bg[NORMAL]	= @tooltip_bg_color
-	bg[SELECTED]	= "#000000"
+	bg[SELECTED]	= "#292929"
 	fg[NORMAL]	= @tooltip_fg_color
 
 	engine "murrine"
 	{
-		roundness	= 5
+		roundness	= 0
 		rgba		= TRUE
 	}
 }

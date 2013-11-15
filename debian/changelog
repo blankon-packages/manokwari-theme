@@ -1,3 +1,10 @@
+manokwari-theme (0.9) suroboyo; urgency=low
+
+  * fix raishing media
+  * fix size background dialog gnome-control-center
+
+ -- mijortsa <mijortsa@toshi>  Fri, 15 Nov 2013 23:09:17 +0700
+
 manokwari-theme (0.8) suroboyo; urgency=low
 
   * fix gtk.widget.css line 1668
