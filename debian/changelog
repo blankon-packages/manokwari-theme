@@ -1,3 +1,9 @@
+manokwari-theme (1.1) suroboyo; urgency=low
+
+  * fix toolbar button, close tiket #1362
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 30 Nov 2013 07:11:22 +0700
+
 manokwari-theme (1.0) suroboyo; urgency=low
 
   * typo #transparent line 470

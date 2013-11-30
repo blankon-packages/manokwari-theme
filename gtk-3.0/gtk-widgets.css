@@ -58,7 +58,7 @@
  ***************/
 .background {
     background-color: @theme_bg_color;
-    color: inherit;
+    color: @panel_fg_color;
 }
 
 .background.client-decorated {

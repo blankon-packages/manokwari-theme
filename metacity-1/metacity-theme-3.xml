@@ -1,22 +1,20 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Greybird</name>
+	<name>Evolve</name>
 	<author>Satyajit Sahoo</author>
-	<copyright>GPL-3.0+</copyright>
+	<copyright>GPL</copyright>
 	<date>July, 2012</date>
-	<description>Greybird Mutter theme</description>
+	<description>Evolve mutter theme</description>
 </info>
 
 <!-- ::: CONSTANTS ::: -->
-<constant name="C_titlebar_gradient_a" value="gtk:custom(wm_bg_a,shade/gtk:bg[NORMAL]/1.07)" />
+<constant name="C_titlebar_gradient_a" value="gtk:custom(wm_bg_a,shade/gtk:bg[NORMAL]/1.05)" />
 <constant name="C_titlebar_gradient_b" value="gtk:custom(wm_bg_b,gtk:bg[NORMAL])" />
 <constant name="C_border_focused" value="gtk:custom(wm_border_focused,shade/gtk:bg[NORMAL]/0.7)" />
 <constant name="C_border_unfocused" value="gtk:custom(wm_border_unfocused,shade/gtk:bg[NORMAL]/0.8)" />
 <constant name="C_title_focused" value="gtk:custom(wm_title_focused,blend/gtk:fg[NORMAL]/gtk:bg[NORMAL]/0.1)" />
-<constant name="C_title_focused_shadow" value="gtk:custom(wm_title_focused_shadow,shade/gtk:bg[NORMAL]/1.2)" />
 <constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,blend/gtk:fg[NORMAL]/gtk:bg[NORMAL]/0.6)" />
-<constant name="C_title_unfocused_shadow" value="gtk:custom(wm_title_unfocused_shadow,shade/gtk:bg[NORMAL]/1.1)" />
 
 <!-- ::: GEOMETRY ::: -->
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
@@ -27,8 +25,8 @@
 	<distance name="right_titlebar_edge" value="4" />
 	<distance name="title_vertical_pad" value="2" />
 	<aspect_ratio name="button" value="1.0" />
-	<border name="title_border" left="8" right="8" top="2" bottom="2" />
-	<border name="button_border" left="0" right="0" top="0" bottom="0" />
+	<border name="title_border" left="8" right="8" top="4" bottom="4" />
+	<border name="button_border" left="0" right="0" top="4" bottom="4" />
 </frame_geometry>
 
 <frame_geometry name="normal_unfocused" title_scale="medium" rounded_top_left="4" rounded_top_right="4" parent="normal" />
@@ -49,8 +47,8 @@
 
 <frame_geometry name="small" title_scale="small" parent="normal" rounded_top_left="false" rounded_top_right="false">
 	<distance name="title_vertical_pad" value="2" />
-	<border name="title_border" left="8" right="8" top="2" bottom="2" />
-	<border name="button_border" left="0" right="0" top="0" bottom="0"  />
+	<border name="title_border" left="8" right="8" top="4" bottom="4" />
+	<border name="button_border" left="0" right="0" top="4" bottom="4"  />
 </frame_geometry>
 
 <frame_geometry name="small_unfocused" parent="small">
@@ -78,27 +76,18 @@
 	<border name="button_border" left="0" right="0" top="0" bottom="0" />
 </frame_geometry>
 
-<frame_geometry name="modal" title_scale="small" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" rounded_bottom_right="false" rounded_bottom_left="false" parent="small">
+<frame_geometry name="modal" title_scale="small" hide_buttons="true" rounded_top_left="4" rounded_top_right="4" rounded_bottom_right="4" rounded_bottom_left="4" parent="small">
 </frame_geometry>
 
-<frame_geometry name="attached" title_scale="small" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" parent="small">
+<frame_geometry name="attached" title_scale="small" hide_buttons="true" rounded_top_left="4" rounded_top_right="4" rounded_bottom_right="4" rounded_bottom_left="4" parent="small">
 </frame_geometry>
 
 <!-- ::: TITLES ::: -->
 <draw_ops name="title_focused">
 	<title version="< 3.1"
                x="(0 `max` ((width - title_width) / 2)) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_focused_shadow" />
-	<title version="< 3.1"
-               x="(0 `max` ((width - title_width) / 2)) + 2"
                y="(0 `max` ((height - title_height) / 2))"
                color="C_title_focused" />
-	<title version=">= 3.1"
-               x="(0 `max` ((frame_x_center - title_width/2) `min` (width - title_width))) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               ellipsize_width="width"
-               color="C_title_focused_shadow" />
 	<title version=">= 3.1"
                x="(0 `max` ((frame_x_center - title_width/2) `min` (width - title_width))) + 2"
                y="(0 `max` ((height - title_height) / 2))"
@@ -109,17 +98,8 @@
 <draw_ops name="title_unfocused">
 	<title version="< 3.1"
                x="(0 `max` ((width - title_width) / 2)) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_unfocused_shadow" />
-	<title version="< 3.1"
-               x="(0 `max` ((width - title_width) / 2)) + 2"
                y="(0 `max` ((height - title_height) / 2))"
                color="C_title_unfocused" />
-	<title version=">= 3.1"
-               x="(0 `max` ((frame_x_center - title_width/2) `min` (width - title_width))) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               ellipsize_width="width"
-               color="C_title_unfocused_shadow" />
 	<title version=">= 3.1"
                x="(0 `max` ((frame_x_center - title_width/2) `min` (width - title_width))) + 2"
                y="(0 `max` ((height - title_height) / 2))"

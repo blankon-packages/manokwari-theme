@@ -11,22 +11,22 @@
 
 PanelWindowHost, 
 PanelWindowPagerEntry {
-	background:linear-gradient(rgba(26,26,26,1),rgba(26,26,26,1),rgba(31,31,31,1));
+	background-image:linear-gradient(rgba(26,26,26,1),rgba(26,26,26,1),rgba(31,31,31,1));
 	background-color: @panel_bg_color;
 	color: @panel_fg_color;
 }
 
 PanelWindowEntryDescriptions {
-	background:linear-gradient(rgba(0,0,0,1));
+	background-image:linear-gradient(rgba(0,0,0,1));
 	background-color: black;
-	color: inherit;
+	color: panel_fg_color;
 	text-shadow: -1px 1px 1px #000;
 	font: Sans;
 	font-size: 8px;
 	font-weight: bold;
 }
 
-PanelTray {
+PanelTray * {
 	background-color: @panel_bg_color;
 	color: @panel_fg_color;
 }
@@ -47,12 +47,12 @@ PanelWindowEntry:insensitive {
 }
 
 PanelWindowEntry:active {
-	background: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
+	background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
 	color: @panel_fg_color;
 }
 
 PanelWindowEntry:prelight {
-	background: linear-gradient(#cacaca, #ffffff, #cacaca);
+	background-image: linear-gradient(#cacaca, #ffffff, #cacaca);
 	color: @panel_fg_color;
 }
 
@@ -67,7 +67,6 @@ PanelCalendar {
 }
 
 * {
-	background: inherit;
 	color: @theme_fg_color;
 }
 
