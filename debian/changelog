@@ -1,3 +1,12 @@
+manokwari-theme (1.5) tambora; urgency=medium
+
+  * gtk-3.0/gtk-widgets.css:
+    - @2853 border-radius: 5px;     #tooltip
+  * gtk-2.0/gtkrc:
+    - @400 roundness = 5            #style "tooltips" 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 16 Apr 2014 15:08:10 +0700
+
 manokwari-theme (1.4) tambora; urgency=medium
 
   * added to tambora release

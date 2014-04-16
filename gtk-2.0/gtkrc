@@ -397,7 +397,7 @@ style "tooltips" = "wider"
 
 	engine "murrine"
 	{
-		roundness	= 0
+		roundness	= 5
 		rgba		= TRUE
 	}
 }

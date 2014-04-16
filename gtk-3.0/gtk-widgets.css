@@ -2850,14 +2850,14 @@ GtkColorButton.button {
  * tooltip *
  ***********/
 .tooltip {
-    /*border-width: 0px;
+    border-width: 1px;
     border-style: solid;
     border-color: shade(@theme_tooltip_bg_color, 0.7);
-    border-radius: 0px;
+    border-radius: 5px;
     background-image: linear-gradient(to bottom,
                                       shade(@theme_tooltip_bg_color, 1.10),
                                       shade(@theme_tooltip_bg_color, 0.95)
-                                      );*/
+                                      );
     background: @tooltip_bg_color;
     color: @tooltip_fg_color;
 }
