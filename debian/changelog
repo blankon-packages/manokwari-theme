@@ -1,3 +1,10 @@
+manokwari-theme (1.7) tambora; urgency=medium
+
+  * apps/gnome-applications.css
+    - typo line 117
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 17 Jun 2014 23:36:39 +0700
+
 manokwari-theme (1.6) tambora; urgency=medium
 
   * replace folder metacity-1 modification by herpiko
