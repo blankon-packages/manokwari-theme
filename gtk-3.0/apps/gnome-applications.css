@@ -109,12 +109,6 @@ NautilusWindow .toolbar {
     border-color: shade(@toolbar_bg_color, 0.8);
 }
 
-NautilusWindow .sidebar:active,
-NautilusWindow .sidebar:prelight,
-NautilusWindow .sidebar:selected {
-	background: #000;
-}
-
 NautilusWindow .sidebar .frame {
     border-style: none;
 }

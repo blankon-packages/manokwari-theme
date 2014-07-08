@@ -1,3 +1,9 @@
+manokwari-theme (1.8) tambora; urgency=medium
+
+  * modification  progress bar in gtk2 by herpiko
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Tue, 08 Jul 2014 21:25:03 +0700
+
 manokwari-theme (1.7) tambora; urgency=medium
 
   * apps/gnome-applications.css
