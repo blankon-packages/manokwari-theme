@@ -16,27 +16,28 @@
 * with the elementary GTK theme. If not, see http://www.gnu.org/licenses/.
 */
 
-@define-color base_color #fafafa;
+/* Default color scheme */
+@define-color base_color #383e41;
 @define-color bg_color shade (@base_color, 0.96);
-@define-color border_color alpha (#000, 0.22);
-@define-color fg_color #333;
-@define-color insensitive_color #999;
-@define-color inset_dark_color alpha (#000, 0.06);
+@define-color fg_color #969f9d;
+@define-color headerbar_color #838484;
+@define-color insensitive_color shade (@bg_color, 0.4);
+@define-color inset_dark_color alpha (#000, 0.03);
 @define-color inset_dark_color_backdrop alpha (#000, 0.03);
 @define-color menu_separator alpha (#000, 0.15);
-@define-color placeholder_text_color shade(@text_color, 2.5);
+@define-color placeholder_text_color shade(@text_color, 0.8);
 @define-color progress_row_trough_color #DEDEDE;
 @define-color selected_bg_color #3d9bda;
 @define-color selected_fg_color #FFF;
-@define-color text_color #333;
-@define-color titlebar_color #DEDEDE;
-@define-color title_color shade (@titlebar_color, 0.55);
-@define-color title_shadow_color alpha (#fff, 0.6);
+@define-color text_color #969f9d;
+@define-color titlebar_color #383e41;
+@define-color title_color shade (@text_color, 0.90);
+@define-color title_shadow_color alpha (#000, 0.6);
 @define-color tooltip_bg_color #000;
 @define-color tooltip_fg_color #FFF;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
-@define-color internal_element_prelight mix(@text_color, @base_color, 0.2);
+@define-color internal_element_prelight mix(@text_color, @base_color, 0.4);
 @define-color internal_element_insensitive mix(@internal_element_color, @base_color, 0.7);
 
 @define-color view_symbolic_color shade(@internal_element_color, 0.80);
@@ -57,7 +58,7 @@
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
 @define-color success_color #4e9a06;
-@define-color metacity_color #dedede;
+@define-color metacity_color @titlebar_color;
 
 @define-color info_fg_color rgb (0, 136, 204);
 @define-color info_bg_color rgb (252, 252, 189);
@@ -73,4 +74,4 @@
 @define-color insensitive_fg_color #a7aba7;
 
 @import url("gtk-widgets.css");
-@import url("manokwari.css");
+@import url("gtk-widgets-dark.css");

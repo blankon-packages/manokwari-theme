@@ -1,3 +1,11 @@
+manokwari-theme (1.9) tambora; urgency=medium
+
+  * Fork elementary OS:
+    - mediaplayer/audacious volume interface
+    - metacity1
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 19 Sep 2014 23:16:34 +0700
+
 manokwari-theme (1.8) tambora; urgency=medium
 
   * modification  progress bar in gtk2 by herpiko

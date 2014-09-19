@@ -1,12 +1,14 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Manokwari
-Comment=A simple and minimal light theme for Gnome
+Name=elementary
+Comment=elementary desktop default theme
 Encoding=UTF-8
 
+Name[en_US]=elementary
+
 [X-GNOME-Metatheme]
-GtkTheme=Manokwari
-MetacityTheme=Manokwari
-IconTheme=Komodo
-CursorTheme=DMZ-White
-CursorSize=24
+GtkTheme=elementary
+MetacityTheme=elementary
+IconTheme=elementary
+CursorTheme=DMZ-Black
+ButtonLayout=close:maximize

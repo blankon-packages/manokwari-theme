@@ -1,57 +1,61 @@
-@define-color panel_bg_color #2F2F2F;
-@define-color panel_fg_color #ededed;
-@define-color window_desc_bg_color #4e70b0;
-@define-color window_desc_fg_color #00001e;
-@define-color window_desc_bg_minimized_color #606090;
-@define-color window_desc_fg_minimized_color #010101;
-@define-color window_desc_bg_hover_color #a0a0a0;
-@define-color window_desc_fg_hover_color #010101;
+@define-color panel_bg_color #000;
+@define-color panel_fg_color #ddd;
 @define-color clock_bg_color @panel_bg_color;
 @define-color clock_fg_color @panel_fg_color; 
 
-PanelWindowHost, 
-PanelWindowPagerEntry {
-	background-image:linear-gradient(rgba(47,47,47,1));
-	background-color: @panel_bg_color;
+PanelWindowHost {
+	background-image:linear-gradient(rgba(0,0,0,1));
 	color: @panel_fg_color;
+	opacity: 0.9;
 }
-
+PanelWindowPagerEntry {
+	background: transparent;
+	color: @panel_fg_color;
+	opacity: 1;
+}
 PanelWindowEntryDescriptions {
 	background-image:linear-gradient(rgba(0,0,0,1));
 	background-color: black;
 	color: @panel_fg_color;
-	text-shadow: -1px 1px 1px #000;
-	font: Sans;
-	font-size: 8px;
+	font-family: Sans;
 	font-weight: bold;
+	font-size: 8px;
+	border: 10px solid #000;
 }
 
 PanelTray * {
 	background-color: @panel_bg_color;
 	color: @panel_fg_color;
+	opacity: 0.9;
 }
 
 PanelClock {
 	background: @clock_bg_color;
 	color: @clock_fg_color;
-	font: Droid Sans;
+	text-shadow: 0 1px 1px #000;
+	font-family: Sans;
+	font-weight:bold;
+	font-size: 10px;
 }
 
 PanelWindowEntry,
 PanelWindowEntry:selected,
 PanelWindowEntry:insensitive {
 	background-color: transparent; 
-	color: transparent; 
+	color: transparent;
+	opacity: 1;
 }
 
 PanelWindowEntry:active {
-	background-image: linear-gradient(#a2a2a2, #e0e0e0, #a2a2a2);
+	background-image: linear-gradient(#fff, #e0e0e0, #fff);
 	color: @panel_fg_color;
+	opacity: 1;
 }
 
-PanelWindowEntry:prelight {
-	background-image: linear-gradient(#cacaca, #ffffff, #cacaca);
+PanelWindowEntry:hover {
+	background-image: linear-gradient(#fff, #eee, #eee, #fff);
 	color: @panel_fg_color;
+	opacity: 1;
 }
 
 PanelWindowPager {
