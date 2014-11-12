@@ -8,26 +8,25 @@ PanelAbstractWindow {
 }
 
 PanelWindowHost {
-	background-image:linear-gradient(black);
+	background-image:linear-gradient(#000);
 	color: @panel_fg_color;
-	opacity: 0.9;
+	opacity: 0.95;
 }
 
 PanelWindowPagerEntry {
-	background-image:linear-gradient(black);
+	background-image:linear-gradient(#000);
 	color: @panel_fg_color;
 	opacity: 1;
 }
 
-PanelWindowEntryDescriptions  {
-	background-image:linear-gradient(black);
+PanelWindowEntryDescriptions {
+	background-image:linear-gradient(#000);
 	background-color: black;
 	color: @panel_fg_color;
 	font: Sans;
 	font-weight: bold;
 	font-size: 8px;
-	border: 10px solid black;
-	opacity: 0;
+	opacity: 1;
 }
 
 PanelTray * {
@@ -50,7 +49,7 @@ PanelWindowEntry {
 	border: 0px solid black;
 	border-radius: 1px;
 	opacity:1;
-	transition: all 200ms ease-out;
+	transition: all 400ms ease-out;
 }
 
 PanelWindowEntry:active {
@@ -73,6 +72,6 @@ PanelCalendar {
 	color: @theme_fg_color;
 }
 
-* {
-	color: inherit;
+.background {
+	color: #555;
 }

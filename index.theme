@@ -1,11 +1,10 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Manokwari
-Comment=A theme
+Name=Zukitre
+Comment=A clean non-intrusive theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Manokwari
-MetacityTheme=Manokwari
-IconTheme=gnome
-CursorTheme=DMZ-White
+GtkTheme=Zukitre
+MetacityTheme=Zukitre
+ButtonLayout=:minimize,maximize,close
