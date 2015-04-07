@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Zukitre
+Name=BlankOn
 Comment=A clean non-intrusive theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Zukitre
-MetacityTheme=Zukitre
+GtkTheme=BlankOn
+MetacityTheme=BlankOn
 ButtonLayout=:minimize,maximize,close

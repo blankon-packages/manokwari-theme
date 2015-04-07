@@ -1,3 +1,10 @@
+manokwari-theme (2.2) tambora; urgency=medium
+
+  * rebuild manokwari.css:
+    - black view PanelWindowEntryDescriptions
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 07 Apr 2015 21:44:01 +0700
+
 manokwari-theme (2.1) tambora; urgency=medium
 
   * Upstream release

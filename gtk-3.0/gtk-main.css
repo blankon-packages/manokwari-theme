@@ -1,7 +1,7 @@
 /* Default color scheme */
-@define-color theme_base_color #f7f7f7;
-@define-color theme_bg_color #d6d6d6;
-@define-color theme_selected_bg_color #2099d6; /* Old: #4B9DDB; */
+@define-color theme_base_color #ffffff;
+@define-color theme_bg_color #e0e0e0;
+@define-color theme_selected_bg_color #467CF8; /*#2099d6;  Old: #4B9DDB; */
 @define-color theme_text_color #2c2c2c;
 @define-color theme_fg_color @theme_text_color;
 @define-color theme_selected_fg_color #ffffff;
@@ -37,7 +37,7 @@
 @define-color sidebar_scrollbar_trough shade(@sidebar_bg, 0.8);
 @define-color sidebar_scrollbar_trough_backdrop shade(@sidebar_bg_unfocused, 0.8);
 
-@define-color button_gradient_color_a shade(@theme_bg_color, 1.12);
+@define-color button_gradient_color_a shade(@theme_bg_color, 1.08);
 @define-color button_gradient_color_b shade(@theme_bg_color, 1.04);
 @define-color button_gradient_color_c shade(@theme_bg_color, 1.06);
 @define-color borders #afafaf;
