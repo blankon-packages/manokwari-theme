@@ -1,3 +1,9 @@
+manokwari-theme (2.3) tambora; urgency=medium
+
+  * Rebuild window decoration
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 21 Apr 2015 02:09:10 +0700
+
 manokwari-theme (2.2) tambora; urgency=medium
 
   * rebuild manokwari.css:

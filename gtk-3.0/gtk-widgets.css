@@ -38,7 +38,7 @@
  ***************/
 
 .background {
-	color: @theme_fg_color;
+	color: shade(@theme_fg_color, 2.3);
 	background-color: @theme_bg_color;
 }
 
@@ -3878,7 +3878,7 @@ GtkModelButton.button:selected {
 }
 
 .maximized .titlebar {
-	border-radius: 0;
+	border-radius: 3px 3px 0px 0px;
 }
 
 /* this is the default titlebar that is added by GTK
@@ -3894,11 +3894,11 @@ GtkModelButton.button:selected {
 	font: Bold 10;
 }
 
-.titlebar:backdrop {
+/*.titlebar:backdrop {
 	background-image: none;
 	background-color: @wm_bg_b;
 	color: @theme_unfocused_fg_color;
-}
+}*/
 
 .titlebar .titlebutton {
 	color: @wm_title;
