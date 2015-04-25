@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=BlankOn
+Name=Manokwari
 Comment=A clean non-intrusive theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=BlankOn
-MetacityTheme=BlankOn
+GtkTheme=Manokwari
+MetacityTheme=Manokwari
 ButtonLayout=:minimize,maximize,close

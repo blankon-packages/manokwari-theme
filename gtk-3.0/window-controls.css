@@ -13,7 +13,7 @@
 	color: transparent;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 15px 15px;
+	background-size: 16px 16px;
 }
 
 /* Set correct layout with 
@@ -28,7 +28,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3),
 .titlebar .left .titlebutton:nth-child(3),
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3) {
-	background-image: url('window-controls/minimize_focused_normal.png');
+	background-image: url('window-controls/minimize_focused_normal.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -36,7 +36,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3):hover,
 .titlebar .left .titlebutton:nth-child(3):hover,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):hover {
-	background-image: url('window-controls/minimize_focused_prelight.png');
+	background-image: url('window-controls/minimize_focused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -44,7 +44,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3):active,
 .titlebar .left .titlebutton:nth-child(3):active,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):active {
-	background-image: url('window-controls/minimize_focused_pressed.png');
+	background-image: url('window-controls/minimize_focused_pressed.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -52,7 +52,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3):backdrop,
 .titlebar .left .titlebutton:nth-child(3):backdrop,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):backdrop {
-	background-image: url('window-controls/minimize_unfocused.png');
+	background-image: url('window-controls/minimize_unfocused_normal.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -60,7 +60,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3):backdrop:hover,
 .titlebar .left .titlebutton:nth-child(3):backdrop:hover,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):backdrop:hover {
-	background-image: url('window-controls/minimize_unfocused_prelight.png');
+	background-image: url('window-controls/minimize_unfocused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -69,7 +69,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(2),
 .titlebar .left .titlebutton:nth-child(2),
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(2) {
-	background-image: url('window-controls/maximize_focused_normal.png');
+	background-image: url('window-controls/maximize_focused_normal.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -77,7 +77,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(2):hover,
 .titlebar .left .titlebutton:nth-child(2):hover,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(2):hover {
-	background-image: url('window-controls/maximize_focused_prelight.png');
+	background-image: url('window-controls/maximize_focused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -85,7 +85,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(2):active,
 .titlebar .left .titlebutton:nth-child(2):active,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(2):active {
-	background-image: url('window-controls/maximize_focused_pressed.png');
+	background-image: url('window-controls/maximize_focused_pressed.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -93,7 +93,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(2):backdrop,
 .titlebar .left .titlebutton:nth-child(2):backdrop,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(2):backdrop {
-	background-image: url('window-controls/maximize_unfocused.png');
+	background-image: url('window-controls/maximize_unfocused_normal.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -101,7 +101,7 @@
 .titlebar .right:dir(rtl) .titlebutton:nth-child(2):backdrop:hover,
 .titlebar .left .titlebutton:nth-child(2):backdrop:hover,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(2):backdrop:hover {
-	background-image: url('window-controls/maximize_unfocused_prelight.png');
+	background-image: url('window-controls/maximize_unfocused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -110,7 +110,7 @@
 .titlebar .right:dir(rtl) .titlebutton:first-child,
 .titlebar .left .titlebutton:first-child,
 .titlebar .left:dir(rtl) .titlebutton:last-child {
-	background-image: url('window-controls/close_focused_normal.png');
+	background-image: url('window-controls/close_focused_normal.svg');
 	padding: 2px 1px 2px 1px;
 	/*padding: 2px 6px 3px 3px;*/ /* Uncomment this when using the Faenza icon theme and maybe some other icon themes */
 }
@@ -119,7 +119,7 @@
 .titlebar .right:dir(rtl) .titlebutton:first-child:hover,
 .titlebar .left .titlebutton:first-child:hover,
 .titlebar .left:dir(rtl) .titlebutton:last-child:hover {
-	background-image: url('window-controls/close_focused_prelight.png');
+	background-image: url('window-controls/close_focused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -127,7 +127,7 @@
 .titlebar .right:dir(rtl) .titlebutton:first-child:active,
 .titlebar .left .titlebutton:first-child:active,
 .titlebar .left:dir(rtl) .titlebutton:last-child:active {
-	background-image: url('window-controls/close_focused_pressed.png');
+	background-image: url('window-controls/close_focused_pressed.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -135,7 +135,7 @@
 .titlebar .right:dir(rtl) .titlebutton:first-child:backdrop,
 .titlebar .left .titlebutton:first-child:backdrop,
 .titlebar .left:dir(rtl) .titlebutton:last-child:backdrop {
-	background-image: url('window-controls/close_unfocused.png');
+	background-image: url('window-controls/close_unfocused_normal.svg');
 	padding: 2px 1px 2px 1px;
 }
 
@@ -143,23 +143,23 @@
 .titlebar .right:dir(rtl) .titlebutton:first-child:backdrop:hover,
 .titlebar .left .titlebutton:first-child:backdrop:hover,
 .titlebar .left:dir(rtl) .titlebutton:last-child:backdrop:hover {
-	background-image: url('window-controls/close_unfocused_prelight.png');
+	background-image: url('window-controls/close_unfocused_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
 /* Menu button when fallback kicks in (XFCE, Cinnamon etc.) */
 
 .titlebar .button.menu-button.titlebutton {
-	background-image: url('window-controls/menu.png');
+	background-image: url('window-controls/menu.svg');
 	padding: 2px 1px 2px 1px;
 }
 
 .titlebar .button.menu-button.titlebutton:hover {
-	background-image: url('window-controls/menu_prelight.png');
+	background-image: url('window-controls/menu_prelight.svg');
 	padding: 2px 1px 2px 1px;
 }
 
 .titlebar .button.menu-button.titlebutton:active {
-	background-image: url('window-controls/menu.png');
+	background-image: url('window-controls/menu.svg');
 	padding: 2px 1px 2px 1px;
 }
