@@ -1,3 +1,9 @@
+manokwari-theme (2.5) tambora; urgency=medium
+
+  * tooltip color dark
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 30 Apr 2015 12:46:43 +0700
+
 manokwari-theme (2.4) tambora; urgency=medium
 
   * Rebuild Window Button by Aris Winardi

@@ -15,7 +15,7 @@ PanelWindowPagerEntry {
 
 PanelWindowEntryDescriptions {
 	background-color: #000;
-	font: Sans;
+	font: Droid Sans;
 	font-weight: bold;
 	font-size: 7px;
 	border: 20px solid black;
@@ -28,10 +28,9 @@ PanelTray * {
 
 PanelClock {
 	background: #111;
-	color: #ddd;
+	color: #BEBEBE;
 	text-shadow: 0 1px 1px #000;
-	font-family: Sans;
-	font-weight:bold;
+	font-family: Droid Sans;
 	font-size: 9px;
 }
 
@@ -43,10 +42,12 @@ PanelWindowEntry {
 
 PanelWindowEntry:active {
 	background-image: linear-gradient(#aaa, #444);
+	opacity: 1;
 }
 
 PanelWindowEntry:hover {
 	background-image: linear-gradient(#BFBFBF, #4D4D4D);
+	opacity: 1;
 }
 
 PanelWindowPager {
@@ -60,6 +61,5 @@ PanelCalendar {
 }
 
 .background {
-
 	opacity: 1;
 }

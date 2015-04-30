@@ -31,7 +31,7 @@
 
 @define-color inactive_frame_color #ccc;
 
-@define-color sidebar_bg shade (@theme_bg_color, 1.025);
+@define-color sidebar_bg shade (@theme_bg_color, 0.95);
 @define-color sidebar_bg_unfocused mix(@sidebar_bg, @theme_unfocused_base_color, 0.5);
 
 @define-color sidebar_scrollbar_trough shade(@sidebar_bg, 0.8);
@@ -132,7 +132,7 @@
 
 @define-color app_notification_border @borders;
 
-@define-color treeview_focus_border #2a79cb;
+@define-color treeview_focus_border #25BFF1;
 
 @define-color view_separators shade(@borders, 1.1);
 @define-color view_symbolic_color shade(@internal_element_color, 0.80);

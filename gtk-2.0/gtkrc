@@ -1,7 +1,7 @@
 # These are the defined colors for the theme.
 gtk_color_scheme = "bg_color:#e0e0e0\nselected_bg_color:#25bff1\nbase_color:#ffffff" # Background, base.
 gtk_color_scheme = "fg_color:#2c2c2c\nselected_fg_color:#ffffff\ntext_color:#2c2c2c" # Foreground, text.
-gtk_color_scheme = "tooltip_bg_color:#F5F5B5\ntooltip_fg_color:#000000" # Tooltips.
+gtk_color_scheme = "tooltip_bg_color:#1A1A1A\ntooltip_fg_color:#aaaaaa" # Tooltips.
 gtk_color_scheme = "link_color:#08c" # Hyperlinks
 gtk_color_scheme = "bg_color_dark:#3f3f3f\ntext_color_dark:#FFF" # Dark colors
 gtk_color_scheme = "panel_bg_color:#2d2d2d\npanel_fg_color:#dcdcdc" # Panel colors
