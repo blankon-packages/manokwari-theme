@@ -31,8 +31,8 @@
 
 @define-color inactive_frame_color #ccc;
 
-@define-color sidebar_bg shade (@theme_bg_color, 0.95);
-@define-color sidebar_bg_unfocused mix(@sidebar_bg, @theme_unfocused_base_color, 0.5);
+@define-color sidebar_bg shade (@theme_bg_color, 1.05);
+@define-color sidebar_bg_unfocused mix(@sidebar_bg, @theme_unfocused_base_color, 0.8);
 
 @define-color sidebar_scrollbar_trough shade(@sidebar_bg, 0.8);
 @define-color sidebar_scrollbar_trough_backdrop shade(@sidebar_bg_unfocused, 0.8);

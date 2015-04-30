@@ -1,3 +1,9 @@
+manokwari-theme (2.6) tambora; urgency=medium
+
+  * rebuild Sidebar color
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 30 Apr 2015 17:05:29 +0700
+
 manokwari-theme (2.5) tambora; urgency=medium
 
   * tooltip color dark
