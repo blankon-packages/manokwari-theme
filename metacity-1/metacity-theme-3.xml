@@ -263,7 +263,7 @@
 </draw_ops>
 
 <draw_ops name="close_unfocused_pressed">
-	<include name="close_unfocused" />	
+	<include name="close_focused_pressed" />	
 </draw_ops>
 
 <!-- :: MAXIMIZE ICON :: -->
@@ -318,7 +318,7 @@
 </draw_ops>
 
 <draw_ops name="maximize_unfocused_pressed">
-	<include name="maximize_unfocused" />
+	<include name="maximize_focused_pressed" />
 </draw_ops>
 
 <!-- :: UNMAXIMIZE ICON :: -->
@@ -370,7 +370,7 @@
 </draw_ops>
 
 <draw_ops name="unmaximize_unfocused_pressed">
-	<include name="unmaximize_unfocused" />
+	<include name="unmaximize_focused_pressed" />
 	
 </draw_ops>
 
@@ -423,7 +423,7 @@
 </draw_ops>
 
 <draw_ops name="minimize_unfocused_pressed">
-    <include name="minimize_unfocused" />
+    <include name="minimize_focused_pressed" />
 </draw_ops>
 
 
