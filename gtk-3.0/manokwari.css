@@ -35,18 +35,21 @@ PanelClock {
 }
 
 PanelWindowEntry {
-	background: transparent;
+	background-image: linear-gradient(to bottom,
+		rgb(17,17,17),
+		rgb(17,17,10));
+	background-color: transparent;
 	transition: all 300ms ease-out;
 	opacity: 0.8;
 }
 
 PanelWindowEntry:active {
-	background-image: linear-gradient(#aaa, #444);
+	background-image: linear-gradient(#7F7F7F, #333);
 	opacity: 1;
 }
 
 PanelWindowEntry:hover {
-	background-image: linear-gradient(#BFBFBF, #4D4D4D);
+	background-image: linear-gradient(#E2E2E2, #4D4D4D);
 	opacity: 1;
 }
 
@@ -61,5 +64,5 @@ PanelCalendar {
 }
 
 .background {
-	opacity: 1;
+	/*opacity: 0.99;*/
 }
