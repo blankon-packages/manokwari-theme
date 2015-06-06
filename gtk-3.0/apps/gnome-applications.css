@@ -11,7 +11,7 @@ SushiFontWidget {
  * nautilus *
  ************/
 .nautilus-canvas-item {
-    border-radius: 2px;
+    border-radius: 0;
 }
 
 .nautilus-desktop.nautilus-canvas-item {
@@ -43,8 +43,9 @@ NautilusWindow .sidebar .frame {
     border-style: none;
 }
 
+
 NautilusWindow .sidebar row:hover {
-	background-color: shade (@theme_bg_color, 0.90);
+	background-color: shade (@theme_bg_color, 0.95);
 }
 
 NautilusWindow * {
@@ -105,12 +106,18 @@ NautilusQueryEditor .search-bar.toolbar:only-child {
     background-image: none;
 }
 
+NautilusListView GtkTreeView {
+    border-color: @borders; /*Temp fix*/
+
+}
+
+
 /******************
  * gnome terminal *
  ******************/
-VteTerminal {
-    background-color: @osd_base;
-    color: @osd_fg;
+
+TerminalWindow.background {
+   background-color: transparent;
 }
 
 TerminalWindow GtkNotebook.notebook {
@@ -118,6 +125,22 @@ TerminalWindow GtkNotebook.notebook {
     border-left-width: 0;
     border-bottom-width: 0;
 }
+
+/* no transparent background for gnome terminal scrollbars :
+remove this section if you have installed a patched version 
+of gnome-terminal with transparency enabled */
+
+
+TerminalWindow .scrollbars-junction,TerminalWindow .scrollbar.trough,
+TerminalWindow .scrollbars-junction.frame,
+TerminalWindow .frame.scrollbar.trough {
+  border-color: transparent;
+  background-color: @theme_bg_color;  }
+  TerminalWindow .scrollbars-junction:backdrop,TerminalWindow .scrollbar.trough:backdrop,
+  TerminalWindow .scrollbars-junction.frame:backdrop,
+  TerminalWindow .frame.scrollbar.trough:backdrop {
+    border-color: transparent;
+    background-color: @theme_bg_color;  }
 
 /*********
  * gedit *

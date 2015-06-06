@@ -1,3 +1,83 @@
+/******************
+ * window actions *
+ ******************/
+/* minimize */
+.titlebar .titlebutton.minimize {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/min.png"));
+}
+
+.titlebar .titlebutton.minimize:backdrop {
+    background-image: -gtk-scaled(url("assets/min_unfocused.png"));
+}
+
+.titlebar .titlebutton.minimize:hover,
+.titlebar .titlebutton.minimize:active,
+.titlebar .titlebutton.minimize:checked  {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/min_prelight.png"));
+}
+
+/* maximize */
+.titlebar .titlebutton.maximize {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/max.png"));
+}
+
+.titlebar .titlebutton.maximize:backdrop {
+    background-image: -gtk-scaled(url("assets/max_unfocused.png"));
+}
+
+
+.titlebar .titlebutton.maximize:hover, 
+.titlebar .titlebutton.maximize:active,
+.titlebar .titlebutton.maximize:checked  {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/max_prelight.png"));
+}
+
+/* close */
+.titlebar .titlebutton.close {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/close.png"));
+}
+
+.titlebar .titlebutton.close:backdrop {
+    background-image: -gtk-scaled(url("assets/close_unfocused.png"));
+}
+
+
+.titlebar .titlebutton.close:hover,
+.titlebar .titlebutton.close:active,
+.titlebar .titlebutton.close:checked  {
+   color: transparent;
+    border-image: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/close_prelight.png"));
+}
+
 /**********************************
  * header-bar, toolbar separator  *
  **********************************/
@@ -170,11 +250,14 @@
 }
 
 
-GtkIconView.content-view.cell.check {
-    background-image: url("assets/grid-selection-unchecked-dark.svg");
-}
+GtkIconView.view.check,
+GtkFlowBox.view.check {
+  -gtk-icon-source: -gtk-scaled(url("assets/grid-selection-unchecked-dark.png"), url("assets/grid-selection-unchecked-dark@2.png"));
+  background-color: transparent; }
 
-GtkIconView.content-view.cell.check:active {
-    background-image: url("assets/grid-selection-checked-dark.svg");
-}
+GtkIconView.view.check:checked,
+GtkFlowBox.view.check:checked {
+  -gtk-icon-source: -gtk-scaled(url("assets/grid-selection-checked-dark.png"), url("assets/grid-selection-checked-dark@2.png"));
+  background-color: transparent; }
+
 

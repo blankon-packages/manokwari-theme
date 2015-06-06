@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="close_focused_normal.svg"
+   inkscape:export-filename="/home/mijortsa/Paketin/GTK-THEME/manokwari-theme/metacity-1/close_focused_normal.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4557">
+      <stop
+         id="stop4559"
+         offset="0"
+         style="stop-color:#b2b2b2;stop-opacity:1" />
+      <stop
+         id="stop4561"
+         offset="1"
+         style="stop-color:#ccc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="StandardGradient"
+       gradientTransform="scale(0.9219544,1.0846523)"
+       x1="11.998966"
+       y1="0.92195445"
+       x2="11.998966"
+       y2="19.387045"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.23529412;"
+         offset="0"
+         id="stop3283" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.55;"
+         offset="1"
+         id="stop2651" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="33.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4092"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-671.14288,-648.57648)">
+    <g
+       transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g4090">
+      <g
+         transform="scale(0.1,0.1)"
+         id="g4092">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4185"
+           d="m 558.77212,-63.075715 c -305.46004,0 -553.0863788,247.626345 -553.0863788,553.086415 0,305.4601 247.6263388,553.0864 553.0863788,553.0864 305.46013,0 553.08648,-247.6263 553.08648,-553.0864 0,-305.46007 -247.62635,-553.086415 -553.08648,-553.086415 z m 0,69.1358058 c 268.40571,0 483.95068,215.5447792 483.95068,483.9506092 0,268.40586 -215.54497,483.95063 -483.95068,483.95063 -268.40563,0 -483.950583,-215.54477 -483.950583,-483.95063 0,-268.40583 215.544953,-483.9506092 483.950583,-483.9506092 z"
+           style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+        <circle
+           transform="matrix(0,-1,1,0,0,0)"
+           id="path5328-1"
+           style="color:black;display:inline;overflow:visible;visibility:visible;fill:#ff0000;fill-opacity:0.68627453;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+           inkscape:export-filename="scale-slider-normal.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"
+           cx="-540.29138"
+           cy="558.77045"
+           r="553.08441" />
+        <circle
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="scale-slider-normal.png"
+           id="path5140-5"
+           style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+           cx="489.63629"
+           cy="-471.15759"
+           r="483.95059"
+           transform="scale(1,-1)" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.75;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;enable-background:accumulate"
+           d="M 6.140625 4.5917969 L 4.9101562 5.8222656 L 6.7695312 7.6816406 L 4.9101562 9.5410156 L 6.140625 10.771484 L 8 8.9121094 L 9.859375 10.771484 L 11.089844 9.5410156 L 9.2304688 7.6816406 L 11.089844 5.8222656 L 9.859375 4.5917969 L 8 6.4511719 L 6.140625 4.5917969 z "
+           transform="matrix(79.012346,0,0,-79.012346,-73.326617,1147.2498)"
+           id="path3984-9-5" />
+      </g>
+    </g>
+  </g>
+</svg>
