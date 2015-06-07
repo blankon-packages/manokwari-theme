@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
@@ -15,31 +14,12 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="minimize_unfocused_prelight.svg">
+   sodipodi:docname="minimize_focused_normal.svg"
+   inkscape:export-filename="/home/mijortsa/Paketin/GTK-THEME/metacity-1/minimize_focused_normal.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4557"
-       id="linearGradient5336-3"
-       x1="72"
-       y1="272"
-       x2="85.714287"
-       y2="272"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(69.135555,0,0,69.135555,-6071.0175,-18242.097)" />
-    <linearGradient
-       id="linearGradient4557">
-      <stop
-         id="stop4559"
-         offset="0"
-         style="stop-color:#b2b2b2;stop-opacity:1" />
-      <stop
-         id="stop4561"
-         offset="1"
-         style="stop-color:#ccc;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -47,18 +27,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="-4.293494"
-     inkscape:cy="4.6169098"
+     inkscape:zoom="33.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
      inkscape:document-units="px"
-     inkscape:current-layer="g4287"
+     inkscape:current-layer="g4415"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="715"
+     inkscape:window-height="718"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
@@ -94,58 +74,32 @@
              transform="scale(0.1,0.1)"
              id="g4287">
             <g
-               id="g5855"
-               style="opacity:0.5">
-              <path
-                 style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-                 d="m 562.77563,-63.193786 c -305.46005,0 -553.0864092,247.626276 -553.0864092,553.086386 0,305.46012 247.6263592,553.0865 553.0864092,553.0865 305.46016,0 553.08637,-247.62639 553.08637,-553.0865 0,-305.46011 -247.62621,-553.086386 -553.08637,-553.086386 z m 0,69.1357243 c 268.40574,0 483.95067,215.5448117 483.95067,483.9506617 0,268.40587 -215.54493,483.95068 -483.95067,483.95068 C 294.37,973.84328 78.825021,758.29847 78.825021,489.8926 78.825021,221.48675 294.37,5.9419383 562.77563,5.9419383 Z"
-                 id="path4185"
-                 inkscape:connector-curvature="0" />
-              <circle
-                 r="553.08447"
-                 cy="562.77386"
-                 cx="-540.17328"
-                 inkscape:export-ydpi="90"
-                 inkscape:export-xdpi="90"
-                 inkscape:export-filename="scale-slider-normal.png"
-                 style="color:black;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5336-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-                 id="path5328-1"
-                 transform="matrix(0,-1,1,0,0,0)" />
-              <circle
-                 transform="scale(1,-1)"
-                 r="483.95062"
-                 cy="-471.03943"
-                 cx="493.63983"
-                 style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-                 id="path5140-5"
-                 inkscape:export-filename="scale-slider-normal.png"
-                 inkscape:export-xdpi="90"
-                 inkscape:export-ydpi="90" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path4209"
-                 d="m 562.77563,-12.913173 c -305.46005,0 -553.0864092,247.626273 -553.0864092,553.086383 0,305.46012 247.6263592,553.08639 553.0864092,553.08639 305.46016,0 553.08637,-247.62627 553.08637,-553.08639 0,-305.46011 -247.62621,-553.086383 -553.08637,-553.086383 z m 0,69.135722 c 268.40574,0 483.95067,215.544811 483.95067,483.950661 0,268.40588 -215.54493,483.95069 -483.95067,483.95069 C 294.37,1024.1239 78.825021,808.57909 78.825021,540.17321 78.825021,271.76736 294.37,56.222549 562.77563,56.222549 Z"
-                 style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+               transform="matrix(10,0,0,10,4.1388913,2.0175489)"
+               inkscape:label="ink_ext_XXXXXX"
+               id="g4413">
               <g
-                 transform="matrix(-0.70057719,-0.71357709,0.71357709,-0.70057719,524.88893,1320.4938)"
-                 id="g4320"
-                 style="">
-                <path
-                   sodipodi:nodetypes="cccc"
-                   inkscape:connector-curvature="0"
-                   id="path5174"
-                   d="m 229.1132,739.49473 473.37811,-473.3781 0,473.3781 z"
-                   style="display:inline;opacity:0.5;fill:black;fill-opacity:1;stroke:none" />
-                <path
-                   id="path5178"
-                   d="m 229.1132,739.49473 473.37811,-473.3781 0,473.3781 -473.37811,0 z m 78.1919,-31.69943 363.48681,0 0,-363.48674 L 307.3051,707.7953 Z"
-                   style="display:inline;opacity:0.2;fill:black;fill-opacity:1;stroke:none"
-                   inkscape:connector-curvature="0" />
-                <path
-                   id="path5180"
-                   d="M 216.43344,807.12017 A 67.422487,67.422487 0 0 1 180.50743,690.88894 l 473.37811,-473.3781 a 67.422487,67.422487 0 0 1 116.23126,48.60579 l 0,473.3781 a 67.422487,67.422487 0 0 1 -67.62549,67.62544 l -473.37811,0 a 67.422487,67.422487 0 0 1 -6.33988,0 67.422487,67.422487 0 0 1 -6.33988,0 z m 12.67976,-67.62544 473.37811,0 0,-473.3781 -473.37811,473.3781 z"
-                   style="display:inline;opacity:0.05;fill:white;fill-opacity:1;stroke:none"
-                   inkscape:connector-curvature="0" />
+                 transform="scale(0.1,0.1)"
+                 id="g4415">
+                <g
+                   id="g4143"
+                   transform="translate(0.00168398,-25.140402)">
+                  <circle
+                     r="553.08441"
+                     cy="558.63507"
+                     cx="-538.1557"
+                     inkscape:export-ydpi="90"
+                     inkscape:export-xdpi="90"
+                     inkscape:export-filename="scale-slider-normal.png"
+                     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffaa00;fill-opacity:0.68627451;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+                     id="path5328-1"
+                     transform="matrix(0,-1,1,0,0,0)" />
+                  <path
+                     id="path5174"
+                     transform="matrix(79.012346,0,0,-79.012346,-73.462017,1145.1141)"
+                     d="M 12.167969,6.4316406 3.6953125,6.5097656 7.9707031,10.707031 12.167969,6.4316406 Z"
+                     style="display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     inkscape:connector-curvature="0" />
+                </g>
               </g>
             </g>
           </g>

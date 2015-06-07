@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="close_focused_pressed.svg"
-   inkscape:export-filename="/home/mijortsa/Paketin/GTK-THEME/manokwari-theme/metacity-1/close_focused_pressed.png"
+   inkscape:export-filename="/home/mijortsa/Paketin/GTK-THEME/metacity-1/close_focused_pressed.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -58,7 +58,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="33.75"
      inkscape:cx="8"
-     inkscape:cy="8"
+     inkscape:cy="8.0639184"
      inkscape:document-units="px"
      inkscape:current-layer="g4092"
      showgrid="true"
@@ -95,36 +95,25 @@
       <g
          transform="scale(0.1,0.1)"
          id="g4092">
-        <path
-           inkscape:connector-curvature="0"
-           id="path4185"
-           d="m 558.77212,-63.075715 c -305.46004,0 -553.0863788,247.626345 -553.0863788,553.086415 0,305.4601 247.6263388,553.0864 553.0863788,553.0864 305.46013,0 553.08648,-247.6263 553.08648,-553.0864 0,-305.46007 -247.62635,-553.086415 -553.08648,-553.086415 z m 0,69.1358058 c 268.40571,0 483.95068,215.5447792 483.95068,483.9506092 0,268.40586 -215.54497,483.95063 -483.95068,483.95063 -268.40563,0 -483.950583,-215.54477 -483.950583,-483.95063 0,-268.40583 215.544953,-483.9506092 483.950583,-483.9506092 z"
-           style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
-        <circle
-           transform="matrix(0,-1,1,0,0,0)"
-           id="path5328-1"
-           style="color:black;display:inline;overflow:visible;visibility:visible;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-           inkscape:export-filename="scale-slider-normal.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"
-           cx="-540.29138"
-           cy="558.77045"
-           r="553.08441" />
-        <circle
-           inkscape:export-ydpi="90"
-           inkscape:export-xdpi="90"
-           inkscape:export-filename="scale-slider-normal.png"
-           id="path5140-5"
-           style="color:black;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-           cx="489.63629"
-           cy="-471.15759"
-           r="483.95059"
-           transform="scale(1,-1)" />
-        <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.75;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;enable-background:accumulate"
-           d="M 6.140625 4.5917969 L 4.9101562 5.8222656 L 6.7695312 7.6816406 L 4.9101562 9.5410156 L 6.140625 10.771484 L 8 8.9121094 L 9.859375 10.771484 L 11.089844 9.5410156 L 9.2304688 7.6816406 L 11.089844 5.8222656 L 9.859375 4.5917969 L 8 6.4511719 L 6.140625 4.5917969 z "
-           transform="matrix(79.012346,0,0,-79.012346,-73.326617,1147.2498)"
-           id="path3984-9-5" />
+        <g
+           id="g4144"
+           transform="translate(-7.6135714e-6,1.1369124e-5)">
+          <circle
+             r="553.08441"
+             cy="558.77216"
+             cx="-515.151"
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="scale-slider-normal.png"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+             id="path5328-1"
+             transform="matrix(0,-1,1,0,0,0)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3984-9-5"
+             d="M 411.85856,759.2868 314.63633,662.06458 461.54991,515.151 314.63633,368.23742 411.85856,271.01522 558.77214,417.92877 705.68572,271.01522 802.90796,368.23742 655.99437,515.151 802.90796,662.06458 705.68572,759.2868 558.77214,612.37322 411.85856,759.2868 Z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.75;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;enable-background:accumulate" />
+        </g>
       </g>
     </g>
   </g>
